@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 420" font-family="Helvetica,Arial,sans-serif">
+  <defs>
+    <marker id="a2" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L7,3 L0,6 Z" fill="#333"/></marker>
+    <marker id="a2s" markerWidth="9" markerHeight="9" refX="1" refY="3" orient="auto">
+      <path d="M7,0 L0,3 L7,6 Z" fill="#333"/></marker>
+    <style>.dim{stroke:#333;stroke-width:1.2;} .dt{font-size:12px;fill:#1a1a1a;} .hd{font-size:15px;font-weight:700;fill:#1a1a1a;}</style>
+  </defs>
+  <!-- ground -->
+  <line x1="40" y1="380" x2="520" y2="380" stroke="#8a6d3b" stroke-width="2"/>
+  <!-- trunk -->
+  <rect x="268" y="250" width="24" height="130" fill="#8a6d3b"/>
+  <!-- crown ellipse -->
+  <ellipse cx="280" cy="180" rx="120" ry="80" fill="#3f7d5a" fill-opacity="0.55" stroke="#2f6f4f"/>
+  <text x="200" y="30" class="hd">Tree geometry parameters</text>
+
+  <!-- Z total height -->
+  <line x1="470" y1="100" x2="470" y2="380" class="dim" marker-end="url(#a2)" marker-start="url(#a2s)"/>
+  <text x="476" y="238" class="dt">Z = total</text>
+  <text x="476" y="253" class="dt">height (H)</text>
+  <!-- X crown diameter -->
+  <line x1="160" y1="180" x2="400" y2="180" class="dim" marker-end="url(#a2)" marker-start="url(#a2s)"/>
+  <text x="215" y="172" class="dt">X = crown Ø (horizontal)</text>
+  <!-- Y crown diameter (depth, dashed) -->
+  <line x1="230" y1="120" x2="330" y2="240" stroke="#333" stroke-width="1.2" stroke-dasharray="4 3" marker-end="url(#a2)" marker-start="url(#a2s)"/>
+  <text x="330" y="120" class="dt">Y = crown Ø (orthogonal)</text>
+  <!-- crown base height -->
+  <line x1="120" y1="260" x2="120" y2="380" class="dim" marker-end="url(#a2)" marker-start="url(#a2s)"/>
+  <text x="8" y="325" class="dt">crown base</text>
+  <text x="8" y="340" class="dt">height</text>
+  <!-- crown depth -->
+  <line x1="150" y1="100" x2="150" y2="260" class="dim" marker-end="url(#a2)" marker-start="url(#a2s)"/>
+  <text x="60" y="90" class="dt">crown depth</text>
+  <!-- trunk diameter -->
+  <line x1="268" y1="400" x2="292" y2="400" class="dim" marker-end="url(#a2)" marker-start="url(#a2s)"/>
+  <text x="300" y="404" class="dt">trunk Ø (DAP/100)</text>
+</svg>

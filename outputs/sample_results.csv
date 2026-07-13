@@ -1,0 +1,31 @@
+tree_id,common_name,scientific_name,perimeter_cm,dbh_cm,trunk_diameter_m,height_m,height_min_m,height_max_m,crown_diameter_x_m,crown_diameter_y_m,crown_base_height_m,crown_depth_m,crown_projected_area_m2,crown_min_m,crown_max_m,crown_group,confidence,warnings
+TREE-001,ANGICO BRANCO,Platypodium elegans,330.0,105.0,1.0504,22.5,18.0,27.0,22.5,22.5,4.5,18.0,397.61,18.0,27.0,broad,medium,Recorded scientific name 'Platypodium elegans' diverges from the reference 'Anadenanthera colubrina' for 'ANGICO BRANCO'; estimate is based on the common name.
+TREE-002,COPAÍBA,Copaifera langsdorffii,53.0,16.9,0.1687,7.0,5.5,8.5,3.71,3.71,2.1,4.9,10.82,2.21,5.21,intermediate,medium,
+TREE-003,JACARANDÁ MIMOSO,Jacaranda mimosifolia,188.0,59.8,0.5984,14.5,11.5,17.5,14.5,14.5,2.9,11.6,165.13,11.6,17.4,broad,medium,
+TREE-004,AMENDOIM DO CAMPO,Platypodium elegans,181.0,57.6,0.5761,14.0,11.0,17.0,14.0,14.0,2.8,11.2,153.94,11.2,16.8,broad,medium,
+TREE-005,IPÊ BRANCO,Tabebuia roseoalba,126.0,40.1,0.4011,10.5,8.5,12.5,8.4,8.4,3.15,7.35,55.42,6.72,10.08,intermediate,medium,
+TREE-006,OITI,Licania tomentosa,75.0,23.9,0.2387,8.0,6.5,9.5,4.3,4.3,2.0,6.0,14.5,2.8,5.8,compact,medium,
+TREE-007,LEUCENA,Leucaena leucocephala,97.0,30.9,0.3088,9.0,7.0,11.0,4.32,4.32,3.6,5.4,14.68,2.82,5.82,narrow,medium,
+TREE-008,ESPÉCIE NÃO IDENTIFICADA,,65.0,,,,,,,,,,,,,,low,Species 'ESPÉCIE NÃO IDENTIFICADA' not found in parameter set; height and crown cannot be estimated. Provide parameters or overrides.
+TREE-009,PITANGA,Eugenia uniflora,70.0,22.3,0.2228,6.0,5.0,7.0,4.01,4.01,1.5,4.5,12.63,2.51,5.51,compact,medium,
+TREE-010,ANGICO BRANCO,Anadenanthera colubrina,156.0,49.7,0.4966,17.0,13.5,20.5,12.41,12.41,3.4,13.6,121.06,9.93,14.9,broad,medium,
+TREE-011,PITANGA,Eugenia uniflora,69.0,22.0,0.2196,6.0,5.0,7.0,3.95,3.95,1.5,4.5,12.27,2.45,5.45,compact,medium,
+TREE-012,LEUCENA,Leucaena leucocephala,107.0,34.1,0.3406,9.5,7.5,11.5,4.75,4.75,3.8,5.7,17.72,3.25,6.25,narrow,medium,
+TREE-013,FICUS,Ficus benjamina,42.0,13.4,0.1337,5.5,4.5,6.5,3.34,3.34,1.1,4.4,8.77,1.84,4.84,broad,medium,
+TREE-014,EUCALIPTO,Eucalyptus sp.,304.0,96.8,0.9677,25.0,20.0,30.0,12.5,12.5,10.0,15.0,122.72,10.0,15.0,narrow,medium,
+TREE-015,IPÊ AMARELO,Handroanthus albus,34.0,10.8,0.1082,5.0,4.0,6.0,2.38,2.38,1.5,3.5,4.45,0.88,3.88,intermediate,medium,
+TREE-016,OITI,Licania tomentosa,91.0,29.0,0.2897,9.0,7.0,11.0,5.21,5.21,2.25,6.75,21.36,3.71,6.71,compact,medium,
+TREE-017,PAINEIRA VERMELHA,Bombax ceiba,108.0,34.4,0.3438,13.0,10.5,15.5,8.6,8.6,2.6,10.4,58.02,6.88,10.31,broad,medium,
+TREE-018,PATA DE VACA,Bauhinia sp.,40.0,12.7,0.1273,5.0,4.0,6.0,2.8,2.8,1.5,3.5,6.16,1.3,4.3,intermediate,low,
+TREE-019,ANGICO BRANCO,Anadenanthera colubrina,520.0,165.5,1.6552,24.5,19.5,29.5,24.5,24.5,4.9,19.6,471.44,19.6,29.4,broad,low,DBH 166 cm is a large extrapolation for the adopted height curve; treat the height with caution.
+TREE-020,LEUCENA,Leucaena leucocephala,42.0,13.4,0.1337,5.5,4.5,6.5,1.87,1.87,2.2,3.3,2.75,0.37,3.37,narrow,medium,
+TREE-021,AMENDOIM DO CAMPO,Platypodium elegans,211.0,67.2,0.6716,15.0,12.0,18.0,15.0,15.0,3.0,12.0,176.71,12.0,18.0,broad,medium,
+TREE-022,PAINEIRA VERMELHA,Bombax ceiba,109.0,34.7,0.347,13.0,10.5,15.5,8.67,8.67,2.6,10.4,59.11,6.94,10.41,broad,medium,
+TREE-023,OITI,Licania tomentosa,77.0,24.5,0.2451,8.0,6.5,9.5,4.41,4.41,2.0,6.0,15.29,2.91,5.91,compact,medium,
+TREE-024,PAINEIRA VERMELHA,Bombax ceiba,106.0,33.7,0.3374,13.0,10.5,15.5,8.43,8.43,2.6,10.4,55.88,6.75,10.12,broad,medium,
+TREE-025,PITANGA,Eugenia uniflora,87.0,27.7,0.2769,6.5,5.0,8.0,4.98,4.98,1.62,4.88,19.51,3.48,6.48,compact,medium,
+TREE-026,PAINEIRA VERMELHA,Bombax ceiba,108.0,34.4,0.3438,13.0,10.5,15.5,8.6,8.6,2.6,10.4,58.02,6.88,10.31,broad,medium,
+TREE-027,COPAÍBA,Copaifera langsdorffii,54.0,17.2,0.1719,7.5,6.0,9.0,3.78,3.78,2.25,5.25,11.23,2.28,5.28,intermediate,medium,
+TREE-028,PALMEIRA JERIVÁ,Syagrus romanzoffiana,55.0,17.5,0.1751,8.5,7.0,10.0,3.5,3.5,4.67,3.83,9.62,2.0,5.0,palm,low,"Palm crown estimated from height, not DBH; confidence is low. Field measurement is recommended."
+TREE-029,ACEROLA,Malpighia glabra,16.0,5.1,0.0509,2.5,2.0,3.0,0.92,0.92,0.62,1.88,0.66,0.0,2.42,compact,medium,
+TREE-030,PITANGA,Eugenia uniflora,79.0,25.1,0.2515,6.0,5.0,7.0,4.53,4.53,1.5,4.5,16.1,3.03,6.03,compact,medium,

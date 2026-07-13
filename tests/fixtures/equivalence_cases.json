@@ -1,0 +1,3935 @@
+[
+  {
+    "input": {
+      "tree_id": "EQ-0001",
+      "common_name": "AMENDOIM DO CAMPO",
+      "scientific_name": "Platypodium elegans",
+      "perimeter_cm": 30.0
+    },
+    "expected": {
+      "tree_id": "EQ-0001",
+      "common_name": "AMENDOIM DO CAMPO",
+      "scientific_name": "Platypodium elegans",
+      "perimeter_cm": 30.0,
+      "dbh_cm": 9.5,
+      "trunk_diameter_m": 0.0955,
+      "height_m": 5.0,
+      "height_min_m": 4.0,
+      "height_max_m": 6.0,
+      "crown_diameter_x_m": 2.39,
+      "crown_diameter_y_m": 2.39,
+      "crown_base_height_m": 1.0,
+      "crown_depth_m": 4.0,
+      "crown_projected_area_m2": 4.48,
+      "crown_min_m": 0.89,
+      "crown_max_m": 3.89,
+      "crown_group": "broad",
+      "confidence": "medium",
+      "warnings": []
+    }
+  },
+  {
+    "input": {
+      "tree_id": "EQ-0002",
+      "common_name": "AMENDOIM DO CAMPO",
+      "scientific_name": "Platypodium elegans",
+      "perimeter_cm": 80.0
+    },
+    "expected": {
+      "tree_id": "EQ-0002",
+      "common_name": "AMENDOIM DO CAMPO",
+      "scientific_name": "Platypodium elegans",
+      "perimeter_cm": 80.0,
+      "dbh_cm": 25.5,
+      "trunk_diameter_m": 0.2546,
+      "height_m": 9.0,
+      "height_min_m": 7.0,
+      "height_max_m": 11.0,
+      "crown_diameter_x_m": 6.37,
+      "crown_diameter_y_m": 6.37,
+      "crown_base_height_m": 1.8,
+      "crown_depth_m": 7.2,
+      "crown_projected_area_m2": 31.82,
+      "crown_min_m": 4.87,
+      "crown_max_m": 7.87,
+      "crown_group": "broad",
+      "confidence": "medium",
+      "warnings": []
+    }
+  },
+  {
+    "input": {
+      "tree_id": "EQ-0003",
+      "common_name": "AMENDOIM DO CAMPO",
+      "scientific_name": "Platypodium elegans",
+      "perimeter_cm": 150.0
+    },
+    "expected": {
+      "tree_id": "EQ-0003",
+      "common_name": "AMENDOIM DO CAMPO",
+      "scientific_name": "Platypodium elegans",
+      "perimeter_cm": 150.0,
+      "dbh_cm": 47.7,
+      "trunk_diameter_m": 0.4775,
+      "height_m": 13.0,
+      "height_min_m": 10.5,
+      "height_max_m": 15.5,
+      "crown_diameter_x_m": 11.94,
+      "crown_diameter_y_m": 11.94,
+      "crown_base_height_m": 2.6,
+      "crown_depth_m": 10.4,
+      "crown_projected_area_m2": 111.92,
+      "crown_min_m": 9.55,
+      "crown_max_m": 14.32,
+      "crown_group": "broad",
+      "confidence": "medium",
+      "warnings": []
+    }
+  },
+  {
+    "input": {
+      "tree_id": "EQ-0004",
+      "common_name": "AMENDOIM DO CAMPO",
+      "scientific_name": "Platypodium elegans",
+      "perimeter_cm": 240.0
+    },
+    "expected": {
+      "tree_id": "EQ-0004",
+      "common_name": "AMENDOIM DO CAMPO",
+      "scientific_name": "Platypodium elegans",
+      "perimeter_cm": 240.0,
+      "dbh_cm": 76.4,
+      "trunk_diameter_m": 0.7639,
+      "height_m": 15.5,
+      "height_min_m": 12.5,
+      "height_max_m": 18.5,
+      "crown_diameter_x_m": 15.5,
+      "crown_diameter_y_m": 15.5,
+      "crown_base_height_m": 3.1,
+      "crown_depth_m": 12.4,
+      "crown_projected_area_m2": 188.69,
+      "crown_min_m": 12.4,
+      "crown_max_m": 18.6,
+      "crown_group": "broad",
+      "confidence": "medium",
+      "warnings": []
+    }
+  },
+  {
+    "input": {
+      "tree_id": "EQ-0005",
+      "common_name": "AMENDOIM DO CAMPO",
+      "scientific_name": "Platypodium elegans",
+      "perimeter_cm": 330.0
+    },
+    "expected": {
+      "tree_id": "EQ-0005",
+      "common_name": "AMENDOIM DO CAMPO",
+      "scientific_name": "Platypodium elegans",
+      "perimeter_cm": 330.0,
+      "dbh_cm": 105.0,
+      "trunk_diameter_m": 1.0504,
+      "height_m": 17.0,
+      "height_min_m": 13.5,
+      "height_max_m": 20.5,
+      "crown_diameter_x_m": 17.0,
+      "crown_diameter_y_m": 17.0,
+      "crown_base_height_m": 3.4,
+      "crown_depth_m": 13.6,
+      "crown_projected_area_m2": 226.98,
+      "crown_min_m": 13.6,
+      "crown_max_m": 20.4,
+      "crown_group": "broad",
+      "confidence": "medium",
+      "warnings": []
+    }
+  },
+  {
+    "input": {
+      "tree_id": "EQ-0006",
+      "common_name": "ANGICO BRANCO",
+      "scientific_name": "Anadenanthera colubrina",
+      "perimeter_cm": 30.0
+    },
+    "expected": {
+      "tree_id": "EQ-0006",
+      "common_name": "ANGICO BRANCO",
+      "scientific_name": "Anadenanthera colubrina",
+      "perimeter_cm": 30.0,
+      "dbh_cm": 9.5,
+      "trunk_diameter_m": 0.0955,
+      "height_m": 6.0,
+      "height_min_m": 5.0,
+      "height_max_m": 7.0,
+      "crown_diameter_x_m": 2.39,
+      "crown_diameter_y_m": 2.39,
+      "crown_base_height_m": 1.2,
+      "crown_depth_m": 4.8,
+      "crown_projected_area_m2": 4.48,
+      "crown_min_m": 0.89,
+      "crown_max_m": 3.89,
+      "crown_group": "broad",
+      "confidence": "medium",
+      "warnings": []
+    }
+  },
+  {
+    "input": {
+      "tree_id": "EQ-0007",
+      "common_name": "ANGICO BRANCO",
+      "scientific_name": "Anadenanthera colubrina",
+      "perimeter_cm": 80.0
+    },
+    "expected": {
+      "tree_id": "EQ-0007",
+      "common_name": "ANGICO BRANCO",
+      "scientific_name": "Anadenanthera colubrina",
+      "perimeter_cm": 80.0,
+      "dbh_cm": 25.5,
+      "trunk_diameter_m": 0.2546,
+      "height_m": 11.5,
+      "height_min_m": 9.0,
+      "height_max_m": 14.0,
+      "crown_diameter_x_m": 6.37,
+      "crown_diameter_y_m": 6.37,
+      "crown_base_height_m": 2.3,
+      "crown_depth_m": 9.2,
+      "crown_projected_area_m2": 31.82,
+      "crown_min_m": 4.87,
+      "crown_max_m": 7.87,
+      "crown_group": "broad",
+      "confidence": "medium",
+      "warnings": []
+    }
+  },
+  {
+    "input": {
+      "tree_id": "EQ-0008",
+      "common_name": "ANGICO BRANCO",
+      "scientific_name": "Anadenanthera colubrina",
+      "perimeter_cm": 150.0
+    },
+    "expected": {
+      "tree_id": "EQ-0008",
+      "common_name": "ANGICO BRANCO",
+      "scientific_name": "Anadenanthera colubrina",
+      "perimeter_cm": 150.0,
+      "dbh_cm": 47.7,
+      "trunk_diameter_m": 0.4775,
+      "height_m": 17.0,
+      "height_min_m": 13.5,
+      "height_max_m": 20.5,
+      "crown_diameter_x_m": 11.94,
+      "crown_diameter_y_m": 11.94,
+      "crown_base_height_m": 3.4,
+      "crown_depth_m": 13.6,
+      "crown_projected_area_m2": 111.92,
+      "crown_min_m": 9.55,
+      "crown_max_m": 14.32,
+      "crown_group": "broad",
+      "confidence": "medium",
+      "warnings": []
+    }
+  },
+  {
+    "input": {
+      "tree_id": "EQ-0009",
+      "common_name": "ANGICO BRANCO",
+      "scientific_name": "Anadenanthera colubrina",
+      "perimeter_cm": 240.0
+    },
+    "expected": {
+      "tree_id": "EQ-0009",
+      "common_name": "ANGICO BRANCO",
+      "scientific_name": "Anadenanthera colubrina",
+      "perimeter_cm": 240.0,
+      "dbh_cm": 76.4,
+      "trunk_diameter_m": 0.7639,
+      "height_m": 20.5,
+      "height_min_m": 16.5,
+      "height_max_m": 24.5,
+      "crown_diameter_x_m": 19.1,
+      "crown_diameter_y_m": 19.1,
+      "crown_base_height_m": 4.1,
+      "crown_depth_m": 16.4,
+      "crown_projected_area_m2": 286.45,
+      "crown_min_m": 15.28,
+      "crown_max_m": 22.92,
+      "crown_group": "broad",
+      "confidence": "medium",
+      "warnings": []
+    }
+  },
+  {
+    "input": {
+      "tree_id": "EQ-0010",
+      "common_name": "ANGICO BRANCO",
+      "scientific_name": "Anadenanthera colubrina",
+      "perimeter_cm": 330.0
+    },
+    "expected": {
+      "tree_id": "EQ-0010",
+      "common_name": "ANGICO BRANCO",
+      "scientific_name": "Anadenanthera colubrina",
+      "perimeter_cm": 330.0,
+      "dbh_cm": 105.0,
+      "trunk_diameter_m": 1.0504,
+      "height_m": 22.5,
+      "height_min_m": 18.0,
+      "height_max_m": 27.0,
+      "crown_diameter_x_m": 22.5,
+      "crown_diameter_y_m": 22.5,
+      "crown_base_height_m": 4.5,
+      "crown_depth_m": 18.0,
+      "crown_projected_area_m2": 397.61,
+      "crown_min_m": 18.0,
+      "crown_max_m": 27.0,
+      "crown_group": "broad",
+      "confidence": "medium",
+      "warnings": []
+    }
+  },
+  {
+    "input": {
+      "tree_id": "EQ-0011",
+      "common_name": "COPAÍBA",
+      "scientific_name": "Copaifera langsdorffii",
+      "perimeter_cm": 30.0
+    },
+    "expected": {
+      "tree_id": "EQ-0011",
+      "common_name": "COPAÍBA",
+      "scientific_name": "Copaifera langsdorffii",
+      "perimeter_cm": 30.0,
+      "dbh_cm": 9.5,
+      "trunk_diameter_m": 0.0955,
+      "height_m": 5.0,
+      "height_min_m": 4.0,
+      "height_max_m": 6.0,
+      "crown_diameter_x_m": 2.1,
+      "crown_diameter_y_m": 2.1,
+      "crown_base_height_m": 1.5,
+      "crown_depth_m": 3.5,
+      "crown_projected_area_m2": 3.47,
+      "crown_min_m": 0.6,
+      "crown_max_m": 3.6,
+      "crown_group": "intermediate",
+      "confidence": "medium",
+      "warnings": []
+    }
+  },
+  {
+    "input": {
+      "tree_id": "EQ-0012",
+      "common_name": "COPAÍBA",
+      "scientific_name": "Copaifera langsdorffii",
+      "perimeter_cm": 80.0
+    },
+    "expected": {
+      "tree_id": "EQ-0012",
+      "common_name": "COPAÍBA",
+      "scientific_name": "Copaifera langsdorffii",
+      "perimeter_cm": 80.0,
+      "dbh_cm": 25.5,
+      "trunk_diameter_m": 0.2546,
+      "height_m": 9.5,
+      "height_min_m": 7.5,
+      "height_max_m": 11.5,
+      "crown_diameter_x_m": 5.6,
+      "crown_diameter_y_m": 5.6,
+      "crown_base_height_m": 2.85,
+      "crown_depth_m": 6.65,
+      "crown_projected_area_m2": 24.64,
+      "crown_min_m": 4.1,
+      "crown_max_m": 7.1,
+      "crown_group": "intermediate",
+      "confidence": "medium",
+      "warnings": []
+    }
+  },
+  {
+    "input": {
+      "tree_id": "EQ-0013",
+      "common_name": "COPAÍBA",
+      "scientific_name": "Copaifera langsdorffii",
+      "perimeter_cm": 150.0
+    },
+    "expected": {
+      "tree_id": "EQ-0013",
+      "common_name": "COPAÍBA",
+      "scientific_name": "Copaifera langsdorffii",
+      "perimeter_cm": 150.0,
+      "dbh_cm": 47.7,
+      "trunk_diameter_m": 0.4775,
+      "height_m": 14.0,
+      "height_min_m": 11.0,
+      "height_max_m": 17.0,
+      "crown_diameter_x_m": 10.5,
+      "crown_diameter_y_m": 10.5,
+      "crown_base_height_m": 4.2,
+      "crown_depth_m": 9.8,
+      "crown_projected_area_m2": 86.67,
+      "crown_min_m": 8.4,
+      "crown_max_m": 12.61,
+      "crown_group": "intermediate",
+      "confidence": "medium",
+      "warnings": []
+    }
+  },
+  {
+    "input": {
+      "tree_id": "EQ-0014",
+      "common_name": "COPAÍBA",
+      "scientific_name": "Copaifera langsdorffii",
+      "perimeter_cm": 240.0
+    },
+    "expected": {
+      "tree_id": "EQ-0014",
+      "common_name": "COPAÍBA",
+      "scientific_name": "Copaifera langsdorffii",
+      "perimeter_cm": 240.0,
+      "dbh_cm": 76.4,
+      "trunk_diameter_m": 0.7639,
+      "height_m": 17.5,
+      "height_min_m": 14.0,
+      "height_max_m": 21.0,
+      "crown_diameter_x_m": 14.0,
+      "crown_diameter_y_m": 14.0,
+      "crown_base_height_m": 5.25,
+      "crown_depth_m": 12.25,
+      "crown_projected_area_m2": 153.94,
+      "crown_min_m": 11.2,
+      "crown_max_m": 16.8,
+      "crown_group": "intermediate",
+      "confidence": "medium",
+      "warnings": []
+    }
+  },
+  {
+    "input": {
+      "tree_id": "EQ-0015",
+      "common_name": "COPAÍBA",
+      "scientific_name": "Copaifera langsdorffii",
+      "perimeter_cm": 330.0
+    },
+    "expected": {
+      "tree_id": "EQ-0015",
+      "common_name": "COPAÍBA",
+      "scientific_name": "Copaifera langsdorffii",
+      "perimeter_cm": 330.0,
+      "dbh_cm": 105.0,
+      "trunk_diameter_m": 1.0504,
+      "height_m": 19.5,
+      "height_min_m": 15.5,
+      "height_max_m": 23.5,
+      "crown_diameter_x_m": 15.6,
+      "crown_diameter_y_m": 15.6,
+      "crown_base_height_m": 5.85,
+      "crown_depth_m": 13.65,
+      "crown_projected_area_m2": 191.13,
+      "crown_min_m": 12.48,
+      "crown_max_m": 18.72,
+      "crown_group": "intermediate",
+      "confidence": "medium",
+      "warnings": []
+    }
+  },
+  {
+    "input": {
+      "tree_id": "EQ-0016",
+      "common_name": "IPÊ BRANCO",
+      "scientific_name": "Tabebuia roseoalba",
+      "perimeter_cm": 30.0
+    },
+    "expected": {
+      "tree_id": "EQ-0016",
+      "common_name": "IPÊ BRANCO",
+      "scientific_name": "Tabebuia roseoalba",
+      "perimeter_cm": 30.0,
+      "dbh_cm": 9.5,
+      "trunk_diameter_m": 0.0955,
+      "height_m": 4.5,
+      "height_min_m": 3.5,
+      "height_max_m": 5.5,
+      "crown_diameter_x_m": 2.1,
+      "crown_diameter_y_m": 2.1,
+      "crown_base_height_m": 1.35,
+      "crown_depth_m": 3.15,
+      "crown_projected_area_m2": 3.47,
+      "crown_min_m": 0.6,
+      "crown_max_m": 3.6,
+      "crown_group": "intermediate",
+      "confidence": "medium",
+      "warnings": []
+    }
+  },
+  {
+    "input": {
+      "tree_id": "EQ-0017",
+      "common_name": "IPÊ BRANCO",
+      "scientific_name": "Tabebuia roseoalba",
+      "perimeter_cm": 80.0
+    },
+    "expected": {
+      "tree_id": "EQ-0017",
+      "common_name": "IPÊ BRANCO",
+      "scientific_name": "Tabebuia roseoalba",
+      "perimeter_cm": 80.0,
+      "dbh_cm": 25.5,
+      "trunk_diameter_m": 0.2546,
+      "height_m": 8.5,
+      "height_min_m": 7.0,
+      "height_max_m": 10.0,
+      "crown_diameter_x_m": 5.6,
+      "crown_diameter_y_m": 5.6,
+      "crown_base_height_m": 2.55,
+      "crown_depth_m": 5.95,
+      "crown_projected_area_m2": 24.64,
+      "crown_min_m": 4.1,
+      "crown_max_m": 7.1,
+      "crown_group": "intermediate",
+      "confidence": "medium",
+      "warnings": []
+    }
+  },
+  {
+    "input": {
+      "tree_id": "EQ-0018",
+      "common_name": "IPÊ BRANCO",
+      "scientific_name": "Tabebuia roseoalba",
+      "perimeter_cm": 150.0
+    },
+    "expected": {
+      "tree_id": "EQ-0018",
+      "common_name": "IPÊ BRANCO",
+      "scientific_name": "Tabebuia roseoalba",
+      "perimeter_cm": 150.0,
+      "dbh_cm": 47.7,
+      "trunk_diameter_m": 0.4775,
+      "height_m": 11.5,
+      "height_min_m": 9.0,
+      "height_max_m": 14.0,
+      "crown_diameter_x_m": 9.2,
+      "crown_diameter_y_m": 9.2,
+      "crown_base_height_m": 3.45,
+      "crown_depth_m": 8.05,
+      "crown_projected_area_m2": 66.48,
+      "crown_min_m": 7.36,
+      "crown_max_m": 11.04,
+      "crown_group": "intermediate",
+      "confidence": "medium",
+      "warnings": []
+    }
+  },
+  {
+    "input": {
+      "tree_id": "EQ-0019",
+      "common_name": "IPÊ BRANCO",
+      "scientific_name": "Tabebuia roseoalba",
+      "perimeter_cm": 240.0
+    },
+    "expected": {
+      "tree_id": "EQ-0019",
+      "common_name": "IPÊ BRANCO",
+      "scientific_name": "Tabebuia roseoalba",
+      "perimeter_cm": 240.0,
+      "dbh_cm": 76.4,
+      "trunk_diameter_m": 0.7639,
+      "height_m": 13.5,
+      "height_min_m": 11.0,
+      "height_max_m": 16.0,
+      "crown_diameter_x_m": 10.8,
+      "crown_diameter_y_m": 10.8,
+      "crown_base_height_m": 4.05,
+      "crown_depth_m": 9.45,
+      "crown_projected_area_m2": 91.61,
+      "crown_min_m": 8.64,
+      "crown_max_m": 12.96,
+      "crown_group": "intermediate",
+      "confidence": "medium",
+      "warnings": []
+    }
+  },
+  {
+    "input": {
+      "tree_id": "EQ-0020",
+      "common_name": "IPÊ BRANCO",
+      "scientific_name": "Tabebuia roseoalba",
+      "perimeter_cm": 330.0
+    },
+    "expected": {
+      "tree_id": "EQ-0020",
+      "common_name": "IPÊ BRANCO",
+      "scientific_name": "Tabebuia roseoalba",
+      "perimeter_cm": 330.0,
+      "dbh_cm": 105.0,
+      "trunk_diameter_m": 1.0504,
+      "height_m": 14.5,
+      "height_min_m": 11.5,
+      "height_max_m": 17.5,
+      "crown_diameter_x_m": 11.6,
+      "crown_diameter_y_m": 11.6,
+      "crown_base_height_m": 4.35,
+      "crown_depth_m": 10.15,
+      "crown_projected_area_m2": 105.68,
+      "crown_min_m": 9.28,
+      "crown_max_m": 13.92,
+      "crown_group": "intermediate",
+      "confidence": "medium",
+      "warnings": []
+    }
+  },
+  {
+    "input": {
+      "tree_id": "EQ-0021",
+      "common_name": "IPÊ AMARELO",
+      "scientific_name": "Handroanthus albus",
+      "perimeter_cm": 30.0
+    },
+    "expected": {
+      "tree_id": "EQ-0021",
+      "common_name": "IPÊ AMARELO",
+      "scientific_name": "Handroanthus albus",
+      "perimeter_cm": 30.0,
+      "dbh_cm": 9.5,
+      "trunk_diameter_m": 0.0955,
+      "height_m": 4.5,
+      "height_min_m": 3.5,
+      "height_max_m": 5.5,
+      "crown_diameter_x_m": 2.1,
+      "crown_diameter_y_m": 2.1,
+      "crown_base_height_m": 1.35,
+      "crown_depth_m": 3.15,
+      "crown_projected_area_m2": 3.47,
+      "crown_min_m": 0.6,
+      "crown_max_m": 3.6,
+      "crown_group": "intermediate",
+      "confidence": "medium",
+      "warnings": []
+    }
+  },
+  {
+    "input": {
+      "tree_id": "EQ-0022",
+      "common_name": "IPÊ AMARELO",
+      "scientific_name": "Handroanthus albus",
+      "perimeter_cm": 80.0
+    },
+    "expected": {
+      "tree_id": "EQ-0022",
+      "common_name": "IPÊ AMARELO",
+      "scientific_name": "Handroanthus albus",
+      "perimeter_cm": 80.0,
+      "dbh_cm": 25.5,
+      "trunk_diameter_m": 0.2546,
+      "height_m": 8.5,
+      "height_min_m": 7.0,
+      "height_max_m": 10.0,
+      "crown_diameter_x_m": 5.6,
+      "crown_diameter_y_m": 5.6,
+      "crown_base_height_m": 2.55,
+      "crown_depth_m": 5.95,
+      "crown_projected_area_m2": 24.64,
+      "crown_min_m": 4.1,
+      "crown_max_m": 7.1,
+      "crown_group": "intermediate",
+      "confidence": "medium",
+      "warnings": []
+    }
+  },
+  {
+    "input": {
+      "tree_id": "EQ-0023",
+      "common_name": "IPÊ AMARELO",
+      "scientific_name": "Handroanthus albus",
+      "perimeter_cm": 150.0
+    },
+    "expected": {
+      "tree_id": "EQ-0023",
+      "common_name": "IPÊ AMARELO",
+      "scientific_name": "Handroanthus albus",
+      "perimeter_cm": 150.0,
+      "dbh_cm": 47.7,
+      "trunk_diameter_m": 0.4775,
+      "height_m": 11.5,
+      "height_min_m": 9.0,
+      "height_max_m": 14.0,
+      "crown_diameter_x_m": 9.2,
+      "crown_diameter_y_m": 9.2,
+      "crown_base_height_m": 3.45,
+      "crown_depth_m": 8.05,
+      "crown_projected_area_m2": 66.48,
+      "crown_min_m": 7.36,
+      "crown_max_m": 11.04,
+      "crown_group": "intermediate",
+      "confidence": "medium",
+      "warnings": []
+    }
+  },
+  {
+    "input": {
+      "tree_id": "EQ-0024",
+      "common_name": "IPÊ AMARELO",
+      "scientific_name": "Handroanthus albus",
+      "perimeter_cm": 240.0
+    },
+    "expected": {
+      "tree_id": "EQ-0024",
+      "common_name": "IPÊ AMARELO",
+      "scientific_name": "Handroanthus albus",
+      "perimeter_cm": 240.0,
+      "dbh_cm": 76.4,
+      "trunk_diameter_m": 0.7639,
+      "height_m": 13.5,
+      "height_min_m": 11.0,
+      "height_max_m": 16.0,
+      "crown_diameter_x_m": 10.8,
+      "crown_diameter_y_m": 10.8,
+      "crown_base_height_m": 4.05,
+      "crown_depth_m": 9.45,
+      "crown_projected_area_m2": 91.61,
+      "crown_min_m": 8.64,
+      "crown_max_m": 12.96,
+      "crown_group": "intermediate",
+      "confidence": "medium",
+      "warnings": []
+    }
+  },
+  {
+    "input": {
+      "tree_id": "EQ-0025",
+      "common_name": "IPÊ AMARELO",
+      "scientific_name": "Handroanthus albus",
+      "perimeter_cm": 330.0
+    },
+    "expected": {
+      "tree_id": "EQ-0025",
+      "common_name": "IPÊ AMARELO",
+      "scientific_name": "Handroanthus albus",
+      "perimeter_cm": 330.0,
+      "dbh_cm": 105.0,
+      "trunk_diameter_m": 1.0504,
+      "height_m": 14.5,
+      "height_min_m": 11.5,
+      "height_max_m": 17.5,
+      "crown_diameter_x_m": 11.6,
+      "crown_diameter_y_m": 11.6,
+      "crown_base_height_m": 4.35,
+      "crown_depth_m": 10.15,
+      "crown_projected_area_m2": 105.68,
+      "crown_min_m": 9.28,
+      "crown_max_m": 13.92,
+      "crown_group": "intermediate",
+      "confidence": "medium",
+      "warnings": []
+    }
+  },
+  {
+    "input": {
+      "tree_id": "EQ-0026",
+      "common_name": "FICUS",
+      "scientific_name": "Ficus benjamina",
+      "perimeter_cm": 30.0
+    },
+    "expected": {
+      "tree_id": "EQ-0026",
+      "common_name": "FICUS",
+      "scientific_name": "Ficus benjamina",
+      "perimeter_cm": 30.0,
+      "dbh_cm": 9.5,
+      "trunk_diameter_m": 0.0955,
+      "height_m": 4.5,
+      "height_min_m": 3.5,
+      "height_max_m": 5.5,
+      "crown_diameter_x_m": 2.39,
+      "crown_diameter_y_m": 2.39,
+      "crown_base_height_m": 0.9,
+      "crown_depth_m": 3.6,
+      "crown_projected_area_m2": 4.48,
+      "crown_min_m": 0.89,
+      "crown_max_m": 3.89,
+      "crown_group": "broad",
+      "confidence": "medium",
+      "warnings": []
+    }
+  },
+  {
+    "input": {
+      "tree_id": "EQ-0027",
+      "common_name": "FICUS",
+      "scientific_name": "Ficus benjamina",
+      "perimeter_cm": 80.0
+    },
+    "expected": {
+      "tree_id": "EQ-0027",
+      "common_name": "FICUS",
+      "scientific_name": "Ficus benjamina",
+      "perimeter_cm": 80.0,
+      "dbh_cm": 25.5,
+      "trunk_diameter_m": 0.2546,
+      "height_m": 8.5,
+      "height_min_m": 7.0,
+      "height_max_m": 10.0,
+      "crown_diameter_x_m": 6.37,
+      "crown_diameter_y_m": 6.37,
+      "crown_base_height_m": 1.7,
+      "crown_depth_m": 6.8,
+      "crown_projected_area_m2": 31.82,
+      "crown_min_m": 4.87,
+      "crown_max_m": 7.87,
+      "crown_group": "broad",
+      "confidence": "medium",
+      "warnings": []
+    }
+  },
+  {
+    "input": {
+      "tree_id": "EQ-0028",
+      "common_name": "FICUS",
+      "scientific_name": "Ficus benjamina",
+      "perimeter_cm": 150.0
+    },
+    "expected": {
+      "tree_id": "EQ-0028",
+      "common_name": "FICUS",
+      "scientific_name": "Ficus benjamina",
+      "perimeter_cm": 150.0,
+      "dbh_cm": 47.7,
+      "trunk_diameter_m": 0.4775,
+      "height_m": 12.0,
+      "height_min_m": 9.5,
+      "height_max_m": 14.5,
+      "crown_diameter_x_m": 11.94,
+      "crown_diameter_y_m": 11.94,
+      "crown_base_height_m": 2.4,
+      "crown_depth_m": 9.6,
+      "crown_projected_area_m2": 111.92,
+      "crown_min_m": 9.55,
+      "crown_max_m": 14.32,
+      "crown_group": "broad",
+      "confidence": "medium",
+      "warnings": []
+    }
+  },
+  {
+    "input": {
+      "tree_id": "EQ-0029",
+      "common_name": "FICUS",
+      "scientific_name": "Ficus benjamina",
+      "perimeter_cm": 240.0
+    },
+    "expected": {
+      "tree_id": "EQ-0029",
+      "common_name": "FICUS",
+      "scientific_name": "Ficus benjamina",
+      "perimeter_cm": 240.0,
+      "dbh_cm": 76.4,
+      "trunk_diameter_m": 0.7639,
+      "height_m": 15.0,
+      "height_min_m": 12.0,
+      "height_max_m": 18.0,
+      "crown_diameter_x_m": 15.0,
+      "crown_diameter_y_m": 15.0,
+      "crown_base_height_m": 3.0,
+      "crown_depth_m": 12.0,
+      "crown_projected_area_m2": 176.71,
+      "crown_min_m": 12.0,
+      "crown_max_m": 18.0,
+      "crown_group": "broad",
+      "confidence": "medium",
+      "warnings": []
+    }
+  },
+  {
+    "input": {
+      "tree_id": "EQ-0030",
+      "common_name": "FICUS",
+      "scientific_name": "Ficus benjamina",
+      "perimeter_cm": 330.0
+    },
+    "expected": {
+      "tree_id": "EQ-0030",
+      "common_name": "FICUS",
+      "scientific_name": "Ficus benjamina",
+      "perimeter_cm": 330.0,
+      "dbh_cm": 105.0,
+      "trunk_diameter_m": 1.0504,
+      "height_m": 16.5,
+      "height_min_m": 13.0,
+      "height_max_m": 20.0,
+      "crown_diameter_x_m": 16.5,
+      "crown_diameter_y_m": 16.5,
+      "crown_base_height_m": 3.3,
+      "crown_depth_m": 13.2,
+      "crown_projected_area_m2": 213.82,
+      "crown_min_m": 13.2,
+      "crown_max_m": 19.8,
+      "crown_group": "broad",
+      "confidence": "medium",
+      "warnings": []
+    }
+  },
+  {
+    "input": {
+      "tree_id": "EQ-0031",
+      "common_name": "COLORAL",
+      "scientific_name": "Bixa orellana",
+      "perimeter_cm": 30.0
+    },
+    "expected": {
+      "tree_id": "EQ-0031",
+      "common_name": "COLORAL",
+      "scientific_name": "Bixa orellana",
+      "perimeter_cm": 30.0,
+      "dbh_cm": 9.5,
+      "trunk_diameter_m": 0.0955,
+      "height_m": 4.0,
+      "height_min_m": 3.0,
+      "height_max_m": 5.0,
+      "crown_diameter_x_m": 1.72,
+      "crown_diameter_y_m": 1.72,
+      "crown_base_height_m": 1.0,
+      "crown_depth_m": 3.0,
+      "crown_projected_area_m2": 2.32,
+      "crown_min_m": 0.22,
+      "crown_max_m": 3.22,
+      "crown_group": "compact",
+      "confidence": "medium",
+      "warnings": []
+    }
+  },
+  {
+    "input": {
+      "tree_id": "EQ-0032",
+      "common_name": "COLORAL",
+      "scientific_name": "Bixa orellana",
+      "perimeter_cm": 80.0
+    },
+    "expected": {
+      "tree_id": "EQ-0032",
+      "common_name": "COLORAL",
+      "scientific_name": "Bixa orellana",
+      "perimeter_cm": 80.0,
+      "dbh_cm": 25.5,
+      "trunk_diameter_m": 0.2546,
+      "height_m": 6.0,
+      "height_min_m": 5.0,
+      "height_max_m": 7.0,
+      "crown_diameter_x_m": 4.58,
+      "crown_diameter_y_m": 4.58,
+      "crown_base_height_m": 1.5,
+      "crown_depth_m": 4.5,
+      "crown_projected_area_m2": 16.49,
+      "crown_min_m": 3.08,
+      "crown_max_m": 6.08,
+      "crown_group": "compact",
+      "confidence": "medium",
+      "warnings": []
+    }
+  },
+  {
+    "input": {
+      "tree_id": "EQ-0033",
+      "common_name": "COLORAL",
+      "scientific_name": "Bixa orellana",
+      "perimeter_cm": 150.0
+    },
+    "expected": {
+      "tree_id": "EQ-0033",
+      "common_name": "COLORAL",
+      "scientific_name": "Bixa orellana",
+      "perimeter_cm": 150.0,
+      "dbh_cm": 47.7,
+      "trunk_diameter_m": 0.4775,
+      "height_m": 7.5,
+      "height_min_m": 6.0,
+      "height_max_m": 9.0,
+      "crown_diameter_x_m": 6.75,
+      "crown_diameter_y_m": 6.75,
+      "crown_base_height_m": 1.88,
+      "crown_depth_m": 5.62,
+      "crown_projected_area_m2": 35.78,
+      "crown_min_m": 5.25,
+      "crown_max_m": 8.25,
+      "crown_group": "compact",
+      "confidence": "medium",
+      "warnings": []
+    }
+  },
+  {
+    "input": {
+      "tree_id": "EQ-0034",
+      "common_name": "COLORAL",
+      "scientific_name": "Bixa orellana",
+      "perimeter_cm": 240.0
+    },
+    "expected": {
+      "tree_id": "EQ-0034",
+      "common_name": "COLORAL",
+      "scientific_name": "Bixa orellana",
+      "perimeter_cm": 240.0,
+      "dbh_cm": 76.4,
+      "trunk_diameter_m": 0.7639,
+      "height_m": 8.0,
+      "height_min_m": 6.5,
+      "height_max_m": 9.5,
+      "crown_diameter_x_m": 7.2,
+      "crown_diameter_y_m": 7.2,
+      "crown_base_height_m": 2.0,
+      "crown_depth_m": 6.0,
+      "crown_projected_area_m2": 40.72,
+      "crown_min_m": 5.7,
+      "crown_max_m": 8.7,
+      "crown_group": "compact",
+      "confidence": "medium",
+      "warnings": []
+    }
+  },
+  {
+    "input": {
+      "tree_id": "EQ-0035",
+      "common_name": "COLORAL",
+      "scientific_name": "Bixa orellana",
+      "perimeter_cm": 330.0
+    },
+    "expected": {
+      "tree_id": "EQ-0035",
+      "common_name": "COLORAL",
+      "scientific_name": "Bixa orellana",
+      "perimeter_cm": 330.0,
+      "dbh_cm": 105.0,
+      "trunk_diameter_m": 1.0504,
+      "height_m": 8.0,
+      "height_min_m": 6.5,
+      "height_max_m": 9.5,
+      "crown_diameter_x_m": 7.2,
+      "crown_diameter_y_m": 7.2,
+      "crown_base_height_m": 2.0,
+      "crown_depth_m": 6.0,
+      "crown_projected_area_m2": 40.72,
+      "crown_min_m": 5.7,
+      "crown_max_m": 8.7,
+      "crown_group": "compact",
+      "confidence": "medium",
+      "warnings": []
+    }
+  },
+  {
+    "input": {
+      "tree_id": "EQ-0036",
+      "common_name": "ACÁCIA MIMOSA",
+      "scientific_name": "Acacia podalyriifolia",
+      "perimeter_cm": 30.0
+    },
+    "expected": {
+      "tree_id": "EQ-0036",
+      "common_name": "ACÁCIA MIMOSA",
+      "scientific_name": "Acacia podalyriifolia",
+      "perimeter_cm": 30.0,
+      "dbh_cm": 9.5,
+      "trunk_diameter_m": 0.0955,
+      "height_m": 4.0,
+      "height_min_m": 3.0,
+      "height_max_m": 5.0,
+      "crown_diameter_x_m": 2.1,
+      "crown_diameter_y_m": 2.1,
+      "crown_base_height_m": 1.2,
+      "crown_depth_m": 2.8,
+      "crown_projected_area_m2": 3.47,
+      "crown_min_m": 0.6,
+      "crown_max_m": 3.6,
+      "crown_group": "intermediate",
+      "confidence": "medium",
+      "warnings": []
+    }
+  },
+  {
+    "input": {
+      "tree_id": "EQ-0037",
+      "common_name": "ACÁCIA MIMOSA",
+      "scientific_name": "Acacia podalyriifolia",
+      "perimeter_cm": 80.0
+    },
+    "expected": {
+      "tree_id": "EQ-0037",
+      "common_name": "ACÁCIA MIMOSA",
+      "scientific_name": "Acacia podalyriifolia",
+      "perimeter_cm": 80.0,
+      "dbh_cm": 25.5,
+      "trunk_diameter_m": 0.2546,
+      "height_m": 7.5,
+      "height_min_m": 6.0,
+      "height_max_m": 9.0,
+      "crown_diameter_x_m": 5.6,
+      "crown_diameter_y_m": 5.6,
+      "crown_base_height_m": 2.25,
+      "crown_depth_m": 5.25,
+      "crown_projected_area_m2": 24.64,
+      "crown_min_m": 4.1,
+      "crown_max_m": 7.1,
+      "crown_group": "intermediate",
+      "confidence": "medium",
+      "warnings": []
+    }
+  },
+  {
+    "input": {
+      "tree_id": "EQ-0038",
+      "common_name": "ACÁCIA MIMOSA",
+      "scientific_name": "Acacia podalyriifolia",
+      "perimeter_cm": 150.0
+    },
+    "expected": {
+      "tree_id": "EQ-0038",
+      "common_name": "ACÁCIA MIMOSA",
+      "scientific_name": "Acacia podalyriifolia",
+      "perimeter_cm": 150.0,
+      "dbh_cm": 47.7,
+      "trunk_diameter_m": 0.4775,
+      "height_m": 10.0,
+      "height_min_m": 8.0,
+      "height_max_m": 12.0,
+      "crown_diameter_x_m": 8.0,
+      "crown_diameter_y_m": 8.0,
+      "crown_base_height_m": 3.0,
+      "crown_depth_m": 7.0,
+      "crown_projected_area_m2": 50.27,
+      "crown_min_m": 6.4,
+      "crown_max_m": 9.6,
+      "crown_group": "intermediate",
+      "confidence": "medium",
+      "warnings": []
+    }
+  },
+  {
+    "input": {
+      "tree_id": "EQ-0039",
+      "common_name": "ACÁCIA MIMOSA",
+      "scientific_name": "Acacia podalyriifolia",
+      "perimeter_cm": 240.0
+    },
+    "expected": {
+      "tree_id": "EQ-0039",
+      "common_name": "ACÁCIA MIMOSA",
+      "scientific_name": "Acacia podalyriifolia",
+      "perimeter_cm": 240.0,
+      "dbh_cm": 76.4,
+      "trunk_diameter_m": 0.7639,
+      "height_m": 11.0,
+      "height_min_m": 9.0,
+      "height_max_m": 13.0,
+      "crown_diameter_x_m": 8.8,
+      "crown_diameter_y_m": 8.8,
+      "crown_base_height_m": 3.3,
+      "crown_depth_m": 7.7,
+      "crown_projected_area_m2": 60.82,
+      "crown_min_m": 7.04,
+      "crown_max_m": 10.56,
+      "crown_group": "intermediate",
+      "confidence": "medium",
+      "warnings": []
+    }
+  },
+  {
+    "input": {
+      "tree_id": "EQ-0040",
+      "common_name": "ACÁCIA MIMOSA",
+      "scientific_name": "Acacia podalyriifolia",
+      "perimeter_cm": 330.0
+    },
+    "expected": {
+      "tree_id": "EQ-0040",
+      "common_name": "ACÁCIA MIMOSA",
+      "scientific_name": "Acacia podalyriifolia",
+      "perimeter_cm": 330.0,
+      "dbh_cm": 105.0,
+      "trunk_diameter_m": 1.0504,
+      "height_m": 11.5,
+      "height_min_m": 9.0,
+      "height_max_m": 14.0,
+      "crown_diameter_x_m": 9.2,
+      "crown_diameter_y_m": 9.2,
+      "crown_base_height_m": 3.45,
+      "crown_depth_m": 8.05,
+      "crown_projected_area_m2": 66.48,
+      "crown_min_m": 7.36,
+      "crown_max_m": 11.04,
+      "crown_group": "intermediate",
+      "confidence": "medium",
+      "warnings": []
+    }
+  },
+  {
+    "input": {
+      "tree_id": "EQ-0041",
+      "common_name": "AMEIXA ASSÍRIA",
+      "scientific_name": "Cordia myxa",
+      "perimeter_cm": 30.0
+    },
+    "expected": {
+      "tree_id": "EQ-0041",
+      "common_name": "AMEIXA ASSÍRIA",
+      "scientific_name": "Cordia myxa",
+      "perimeter_cm": 30.0,
+      "dbh_cm": 9.5,
+      "trunk_diameter_m": 0.0955,
+      "height_m": 4.5,
+      "height_min_m": 3.5,
+      "height_max_m": 5.5,
+      "crown_diameter_x_m": 2.1,
+      "crown_diameter_y_m": 2.1,
+      "crown_base_height_m": 1.35,
+      "crown_depth_m": 3.15,
+      "crown_projected_area_m2": 3.47,
+      "crown_min_m": 0.6,
+      "crown_max_m": 3.6,
+      "crown_group": "intermediate",
+      "confidence": "medium",
+      "warnings": []
+    }
+  },
+  {
+    "input": {
+      "tree_id": "EQ-0042",
+      "common_name": "AMEIXA ASSÍRIA",
+      "scientific_name": "Cordia myxa",
+      "perimeter_cm": 80.0
+    },
+    "expected": {
+      "tree_id": "EQ-0042",
+      "common_name": "AMEIXA ASSÍRIA",
+      "scientific_name": "Cordia myxa",
+      "perimeter_cm": 80.0,
+      "dbh_cm": 25.5,
+      "trunk_diameter_m": 0.2546,
+      "height_m": 8.5,
+      "height_min_m": 7.0,
+      "height_max_m": 10.0,
+      "crown_diameter_x_m": 5.6,
+      "crown_diameter_y_m": 5.6,
+      "crown_base_height_m": 2.55,
+      "crown_depth_m": 5.95,
+      "crown_projected_area_m2": 24.64,
+      "crown_min_m": 4.1,
+      "crown_max_m": 7.1,
+      "crown_group": "intermediate",
+      "confidence": "medium",
+      "warnings": []
+    }
+  },
+  {
+    "input": {
+      "tree_id": "EQ-0043",
+      "common_name": "AMEIXA ASSÍRIA",
+      "scientific_name": "Cordia myxa",
+      "perimeter_cm": 150.0
+    },
+    "expected": {
+      "tree_id": "EQ-0043",
+      "common_name": "AMEIXA ASSÍRIA",
+      "scientific_name": "Cordia myxa",
+      "perimeter_cm": 150.0,
+      "dbh_cm": 47.7,
+      "trunk_diameter_m": 0.4775,
+      "height_m": 11.5,
+      "height_min_m": 9.0,
+      "height_max_m": 14.0,
+      "crown_diameter_x_m": 9.2,
+      "crown_diameter_y_m": 9.2,
+      "crown_base_height_m": 3.45,
+      "crown_depth_m": 8.05,
+      "crown_projected_area_m2": 66.48,
+      "crown_min_m": 7.36,
+      "crown_max_m": 11.04,
+      "crown_group": "intermediate",
+      "confidence": "medium",
+      "warnings": []
+    }
+  },
+  {
+    "input": {
+      "tree_id": "EQ-0044",
+      "common_name": "AMEIXA ASSÍRIA",
+      "scientific_name": "Cordia myxa",
+      "perimeter_cm": 240.0
+    },
+    "expected": {
+      "tree_id": "EQ-0044",
+      "common_name": "AMEIXA ASSÍRIA",
+      "scientific_name": "Cordia myxa",
+      "perimeter_cm": 240.0,
+      "dbh_cm": 76.4,
+      "trunk_diameter_m": 0.7639,
+      "height_m": 13.5,
+      "height_min_m": 11.0,
+      "height_max_m": 16.0,
+      "crown_diameter_x_m": 10.8,
+      "crown_diameter_y_m": 10.8,
+      "crown_base_height_m": 4.05,
+      "crown_depth_m": 9.45,
+      "crown_projected_area_m2": 91.61,
+      "crown_min_m": 8.64,
+      "crown_max_m": 12.96,
+      "crown_group": "intermediate",
+      "confidence": "medium",
+      "warnings": []
+    }
+  },
+  {
+    "input": {
+      "tree_id": "EQ-0045",
+      "common_name": "AMEIXA ASSÍRIA",
+      "scientific_name": "Cordia myxa",
+      "perimeter_cm": 330.0
+    },
+    "expected": {
+      "tree_id": "EQ-0045",
+      "common_name": "AMEIXA ASSÍRIA",
+      "scientific_name": "Cordia myxa",
+      "perimeter_cm": 330.0,
+      "dbh_cm": 105.0,
+      "trunk_diameter_m": 1.0504,
+      "height_m": 14.5,
+      "height_min_m": 11.5,
+      "height_max_m": 17.5,
+      "crown_diameter_x_m": 11.6,
+      "crown_diameter_y_m": 11.6,
+      "crown_base_height_m": 4.35,
+      "crown_depth_m": 10.15,
+      "crown_projected_area_m2": 105.68,
+      "crown_min_m": 9.28,
+      "crown_max_m": 13.92,
+      "crown_group": "intermediate",
+      "confidence": "medium",
+      "warnings": []
+    }
+  },
+  {
+    "input": {
+      "tree_id": "EQ-0046",
+      "common_name": "PATA DE VACA",
+      "scientific_name": "Bauhinia sp.",
+      "perimeter_cm": 30.0
+    },
+    "expected": {
+      "tree_id": "EQ-0046",
+      "common_name": "PATA DE VACA",
+      "scientific_name": "Bauhinia sp.",
+      "perimeter_cm": 30.0,
+      "dbh_cm": 9.5,
+      "trunk_diameter_m": 0.0955,
+      "height_m": 4.0,
+      "height_min_m": 3.0,
+      "height_max_m": 5.0,
+      "crown_diameter_x_m": 2.1,
+      "crown_diameter_y_m": 2.1,
+      "crown_base_height_m": 1.2,
+      "crown_depth_m": 2.8,
+      "crown_projected_area_m2": 3.47,
+      "crown_min_m": 0.6,
+      "crown_max_m": 3.6,
+      "crown_group": "intermediate",
+      "confidence": "low",
+      "warnings": []
+    }
+  },
+  {
+    "input": {
+      "tree_id": "EQ-0047",
+      "common_name": "PATA DE VACA",
+      "scientific_name": "Bauhinia sp.",
+      "perimeter_cm": 80.0
+    },
+    "expected": {
+      "tree_id": "EQ-0047",
+      "common_name": "PATA DE VACA",
+      "scientific_name": "Bauhinia sp.",
+      "perimeter_cm": 80.0,
+      "dbh_cm": 25.5,
+      "trunk_diameter_m": 0.2546,
+      "height_m": 7.0,
+      "height_min_m": 5.5,
+      "height_max_m": 8.5,
+      "crown_diameter_x_m": 5.6,
+      "crown_diameter_y_m": 5.6,
+      "crown_base_height_m": 2.1,
+      "crown_depth_m": 4.9,
+      "crown_projected_area_m2": 24.63,
+      "crown_min_m": 4.1,
+      "crown_max_m": 7.1,
+      "crown_group": "intermediate",
+      "confidence": "low",
+      "warnings": []
+    }
+  },
+  {
+    "input": {
+      "tree_id": "EQ-0048",
+      "common_name": "PATA DE VACA",
+      "scientific_name": "Bauhinia sp.",
+      "perimeter_cm": 150.0
+    },
+    "expected": {
+      "tree_id": "EQ-0048",
+      "common_name": "PATA DE VACA",
+      "scientific_name": "Bauhinia sp.",
+      "perimeter_cm": 150.0,
+      "dbh_cm": 47.7,
+      "trunk_diameter_m": 0.4775,
+      "height_m": 8.5,
+      "height_min_m": 7.0,
+      "height_max_m": 10.0,
+      "crown_diameter_x_m": 6.8,
+      "crown_diameter_y_m": 6.8,
+      "crown_base_height_m": 2.55,
+      "crown_depth_m": 5.95,
+      "crown_projected_area_m2": 36.32,
+      "crown_min_m": 5.3,
+      "crown_max_m": 8.3,
+      "crown_group": "intermediate",
+      "confidence": "low",
+      "warnings": []
+    }
+  },
+  {
+    "input": {
+      "tree_id": "EQ-0049",
+      "common_name": "PATA DE VACA",
+      "scientific_name": "Bauhinia sp.",
+      "perimeter_cm": 240.0
+    },
+    "expected": {
+      "tree_id": "EQ-0049",
+      "common_name": "PATA DE VACA",
+      "scientific_name": "Bauhinia sp.",
+      "perimeter_cm": 240.0,
+      "dbh_cm": 76.4,
+      "trunk_diameter_m": 0.7639,
+      "height_m": 9.5,
+      "height_min_m": 7.5,
+      "height_max_m": 11.5,
+      "crown_diameter_x_m": 7.6,
+      "crown_diameter_y_m": 7.6,
+      "crown_base_height_m": 2.85,
+      "crown_depth_m": 6.65,
+      "crown_projected_area_m2": 45.36,
+      "crown_min_m": 6.08,
+      "crown_max_m": 9.12,
+      "crown_group": "intermediate",
+      "confidence": "low",
+      "warnings": []
+    }
+  },
+  {
+    "input": {
+      "tree_id": "EQ-0050",
+      "common_name": "PATA DE VACA",
+      "scientific_name": "Bauhinia sp.",
+      "perimeter_cm": 330.0
+    },
+    "expected": {
+      "tree_id": "EQ-0050",
+      "common_name": "PATA DE VACA",
+      "scientific_name": "Bauhinia sp.",
+      "perimeter_cm": 330.0,
+      "dbh_cm": 105.0,
+      "trunk_diameter_m": 1.0504,
+      "height_m": 10.0,
+      "height_min_m": 8.0,
+      "height_max_m": 12.0,
+      "crown_diameter_x_m": 8.0,
+      "crown_diameter_y_m": 8.0,
+      "crown_base_height_m": 3.0,
+      "crown_depth_m": 7.0,
+      "crown_projected_area_m2": 50.27,
+      "crown_min_m": 6.4,
+      "crown_max_m": 9.6,
+      "crown_group": "intermediate",
+      "confidence": "low",
+      "warnings": []
+    }
+  },
+  {
+    "input": {
+      "tree_id": "EQ-0051",
+      "common_name": "LEUCENA",
+      "scientific_name": "Leucaena leucocephala",
+      "perimeter_cm": 30.0
+    },
+    "expected": {
+      "tree_id": "EQ-0051",
+      "common_name": "LEUCENA",
+      "scientific_name": "Leucaena leucocephala",
+      "perimeter_cm": 30.0,
+      "dbh_cm": 9.5,
+      "trunk_diameter_m": 0.0955,
+      "height_m": 4.5,
+      "height_min_m": 3.5,
+      "height_max_m": 5.5,
+      "crown_diameter_x_m": 1.34,
+      "crown_diameter_y_m": 1.34,
+      "crown_base_height_m": 1.8,
+      "crown_depth_m": 2.7,
+      "crown_projected_area_m2": 1.4,
+      "crown_min_m": 0.0,
+      "crown_max_m": 2.84,
+      "crown_group": "narrow",
+      "confidence": "medium",
+      "warnings": []
+    }
+  },
+  {
+    "input": {
+      "tree_id": "EQ-0052",
+      "common_name": "LEUCENA",
+      "scientific_name": "Leucaena leucocephala",
+      "perimeter_cm": 80.0
+    },
+    "expected": {
+      "tree_id": "EQ-0052",
+      "common_name": "LEUCENA",
+      "scientific_name": "Leucaena leucocephala",
+      "perimeter_cm": 80.0,
+      "dbh_cm": 25.5,
+      "trunk_diameter_m": 0.2546,
+      "height_m": 8.0,
+      "height_min_m": 6.5,
+      "height_max_m": 9.5,
+      "crown_diameter_x_m": 3.56,
+      "crown_diameter_y_m": 3.56,
+      "crown_base_height_m": 3.2,
+      "crown_depth_m": 4.8,
+      "crown_projected_area_m2": 9.98,
+      "crown_min_m": 2.06,
+      "crown_max_m": 5.06,
+      "crown_group": "narrow",
+      "confidence": "medium",
+      "warnings": []
+    }
+  },
+  {
+    "input": {
+      "tree_id": "EQ-0053",
+      "common_name": "LEUCENA",
+      "scientific_name": "Leucaena leucocephala",
+      "perimeter_cm": 150.0
+    },
+    "expected": {
+      "tree_id": "EQ-0053",
+      "common_name": "LEUCENA",
+      "scientific_name": "Leucaena leucocephala",
+      "perimeter_cm": 150.0,
+      "dbh_cm": 47.7,
+      "trunk_diameter_m": 0.4775,
+      "height_m": 10.5,
+      "height_min_m": 8.5,
+      "height_max_m": 12.5,
+      "crown_diameter_x_m": 5.25,
+      "crown_diameter_y_m": 5.25,
+      "crown_base_height_m": 4.2,
+      "crown_depth_m": 6.3,
+      "crown_projected_area_m2": 21.65,
+      "crown_min_m": 3.75,
+      "crown_max_m": 6.75,
+      "crown_group": "narrow",
+      "confidence": "medium",
+      "warnings": []
+    }
+  },
+  {
+    "input": {
+      "tree_id": "EQ-0054",
+      "common_name": "LEUCENA",
+      "scientific_name": "Leucaena leucocephala",
+      "perimeter_cm": 240.0
+    },
+    "expected": {
+      "tree_id": "EQ-0054",
+      "common_name": "LEUCENA",
+      "scientific_name": "Leucaena leucocephala",
+      "perimeter_cm": 240.0,
+      "dbh_cm": 76.4,
+      "trunk_diameter_m": 0.7639,
+      "height_m": 11.5,
+      "height_min_m": 9.0,
+      "height_max_m": 14.0,
+      "crown_diameter_x_m": 5.75,
+      "crown_diameter_y_m": 5.75,
+      "crown_base_height_m": 4.6,
+      "crown_depth_m": 6.9,
+      "crown_projected_area_m2": 25.97,
+      "crown_min_m": 4.25,
+      "crown_max_m": 7.25,
+      "crown_group": "narrow",
+      "confidence": "medium",
+      "warnings": []
+    }
+  },
+  {
+    "input": {
+      "tree_id": "EQ-0055",
+      "common_name": "LEUCENA",
+      "scientific_name": "Leucaena leucocephala",
+      "perimeter_cm": 330.0
+    },
+    "expected": {
+      "tree_id": "EQ-0055",
+      "common_name": "LEUCENA",
+      "scientific_name": "Leucaena leucocephala",
+      "perimeter_cm": 330.0,
+      "dbh_cm": 105.0,
+      "trunk_diameter_m": 1.0504,
+      "height_m": 12.0,
+      "height_min_m": 9.5,
+      "height_max_m": 14.5,
+      "crown_diameter_x_m": 6.0,
+      "crown_diameter_y_m": 6.0,
+      "crown_base_height_m": 4.8,
+      "crown_depth_m": 7.2,
+      "crown_projected_area_m2": 28.27,
+      "crown_min_m": 4.5,
+      "crown_max_m": 7.5,
+      "crown_group": "narrow",
+      "confidence": "medium",
+      "warnings": []
+    }
+  },
+  {
+    "input": {
+      "tree_id": "EQ-0056",
+      "common_name": "PALMEIRA JERIVÁ",
+      "scientific_name": "Syagrus romanzoffiana",
+      "perimeter_cm": 30.0
+    },
+    "expected": {
+      "tree_id": "EQ-0056",
+      "common_name": "PALMEIRA JERIVÁ",
+      "scientific_name": "Syagrus romanzoffiana",
+      "perimeter_cm": 30.0,
+      "dbh_cm": 9.5,
+      "trunk_diameter_m": 0.0955,
+      "height_m": 6.0,
+      "height_min_m": 5.0,
+      "height_max_m": 7.0,
+      "crown_diameter_x_m": 3.5,
+      "crown_diameter_y_m": 3.5,
+      "crown_base_height_m": 3.3,
+      "crown_depth_m": 2.7,
+      "crown_projected_area_m2": 9.62,
+      "crown_min_m": 2.0,
+      "crown_max_m": 5.0,
+      "crown_group": "palm",
+      "confidence": "low",
+      "warnings": [
+        "Palm crown estimated from height, not DBH; confidence is low. Field measurement is recommended."
+      ]
+    }
+  },
+  {
+    "input": {
+      "tree_id": "EQ-0057",
+      "common_name": "PALMEIRA JERIVÁ",
+      "scientific_name": "Syagrus romanzoffiana",
+      "perimeter_cm": 80.0
+    },
+    "expected": {
+      "tree_id": "EQ-0057",
+      "common_name": "PALMEIRA JERIVÁ",
+      "scientific_name": "Syagrus romanzoffiana",
+      "perimeter_cm": 80.0,
+      "dbh_cm": 25.5,
+      "trunk_diameter_m": 0.2546,
+      "height_m": 11.0,
+      "height_min_m": 9.0,
+      "height_max_m": 13.0,
+      "crown_diameter_x_m": 3.85,
+      "crown_diameter_y_m": 3.85,
+      "crown_base_height_m": 6.05,
+      "crown_depth_m": 4.95,
+      "crown_projected_area_m2": 11.64,
+      "crown_min_m": 2.35,
+      "crown_max_m": 5.35,
+      "crown_group": "palm",
+      "confidence": "low",
+      "warnings": [
+        "Palm crown estimated from height, not DBH; confidence is low. Field measurement is recommended."
+      ]
+    }
+  },
+  {
+    "input": {
+      "tree_id": "EQ-0058",
+      "common_name": "PALMEIRA JERIVÁ",
+      "scientific_name": "Syagrus romanzoffiana",
+      "perimeter_cm": 150.0
+    },
+    "expected": {
+      "tree_id": "EQ-0058",
+      "common_name": "PALMEIRA JERIVÁ",
+      "scientific_name": "Syagrus romanzoffiana",
+      "perimeter_cm": 150.0,
+      "dbh_cm": 47.7,
+      "trunk_diameter_m": 0.4775,
+      "height_m": 14.5,
+      "height_min_m": 11.5,
+      "height_max_m": 17.5,
+      "crown_diameter_x_m": 5.07,
+      "crown_diameter_y_m": 5.07,
+      "crown_base_height_m": 7.97,
+      "crown_depth_m": 6.53,
+      "crown_projected_area_m2": 20.23,
+      "crown_min_m": 3.57,
+      "crown_max_m": 6.57,
+      "crown_group": "palm",
+      "confidence": "low",
+      "warnings": [
+        "Palm crown estimated from height, not DBH; confidence is low. Field measurement is recommended."
+      ]
+    }
+  },
+  {
+    "input": {
+      "tree_id": "EQ-0059",
+      "common_name": "PALMEIRA JERIVÁ",
+      "scientific_name": "Syagrus romanzoffiana",
+      "perimeter_cm": 240.0
+    },
+    "expected": {
+      "tree_id": "EQ-0059",
+      "common_name": "PALMEIRA JERIVÁ",
+      "scientific_name": "Syagrus romanzoffiana",
+      "perimeter_cm": 240.0,
+      "dbh_cm": 76.4,
+      "trunk_diameter_m": 0.7639,
+      "height_m": 16.5,
+      "height_min_m": 13.0,
+      "height_max_m": 20.0,
+      "crown_diameter_x_m": 5.77,
+      "crown_diameter_y_m": 5.77,
+      "crown_base_height_m": 9.07,
+      "crown_depth_m": 7.42,
+      "crown_projected_area_m2": 26.19,
+      "crown_min_m": 4.27,
+      "crown_max_m": 7.27,
+      "crown_group": "palm",
+      "confidence": "low",
+      "warnings": [
+        "Palm crown estimated from height, not DBH; confidence is low. Field measurement is recommended."
+      ]
+    }
+  },
+  {
+    "input": {
+      "tree_id": "EQ-0060",
+      "common_name": "PALMEIRA JERIVÁ",
+      "scientific_name": "Syagrus romanzoffiana",
+      "perimeter_cm": 330.0
+    },
+    "expected": {
+      "tree_id": "EQ-0060",
+      "common_name": "PALMEIRA JERIVÁ",
+      "scientific_name": "Syagrus romanzoffiana",
+      "perimeter_cm": 330.0,
+      "dbh_cm": 105.0,
+      "trunk_diameter_m": 1.0504,
+      "height_m": 17.5,
+      "height_min_m": 14.0,
+      "height_max_m": 21.0,
+      "crown_diameter_x_m": 6.0,
+      "crown_diameter_y_m": 6.0,
+      "crown_base_height_m": 9.62,
+      "crown_depth_m": 7.88,
+      "crown_projected_area_m2": 28.27,
+      "crown_min_m": 4.5,
+      "crown_max_m": 7.5,
+      "crown_group": "palm",
+      "confidence": "low",
+      "warnings": [
+        "Palm crown estimated from height, not DBH; confidence is low. Field measurement is recommended."
+      ]
+    }
+  },
+  {
+    "input": {
+      "tree_id": "EQ-0061",
+      "common_name": "ACEROLA",
+      "scientific_name": "Malpighia glabra",
+      "perimeter_cm": 30.0
+    },
+    "expected": {
+      "tree_id": "EQ-0061",
+      "common_name": "ACEROLA",
+      "scientific_name": "Malpighia glabra",
+      "perimeter_cm": 30.0,
+      "dbh_cm": 9.5,
+      "trunk_diameter_m": 0.0955,
+      "height_m": 3.5,
+      "height_min_m": 3.0,
+      "height_max_m": 4.0,
+      "crown_diameter_x_m": 1.72,
+      "crown_diameter_y_m": 1.72,
+      "crown_base_height_m": 0.88,
+      "crown_depth_m": 2.62,
+      "crown_projected_area_m2": 2.32,
+      "crown_min_m": 0.22,
+      "crown_max_m": 3.22,
+      "crown_group": "compact",
+      "confidence": "medium",
+      "warnings": []
+    }
+  },
+  {
+    "input": {
+      "tree_id": "EQ-0062",
+      "common_name": "ACEROLA",
+      "scientific_name": "Malpighia glabra",
+      "perimeter_cm": 80.0
+    },
+    "expected": {
+      "tree_id": "EQ-0062",
+      "common_name": "ACEROLA",
+      "scientific_name": "Malpighia glabra",
+      "perimeter_cm": 80.0,
+      "dbh_cm": 25.5,
+      "trunk_diameter_m": 0.2546,
+      "height_m": 5.0,
+      "height_min_m": 4.0,
+      "height_max_m": 6.0,
+      "crown_diameter_x_m": 4.5,
+      "crown_diameter_y_m": 4.5,
+      "crown_base_height_m": 1.25,
+      "crown_depth_m": 3.75,
+      "crown_projected_area_m2": 15.9,
+      "crown_min_m": 3.0,
+      "crown_max_m": 6.0,
+      "crown_group": "compact",
+      "confidence": "medium",
+      "warnings": []
+    }
+  },
+  {
+    "input": {
+      "tree_id": "EQ-0063",
+      "common_name": "ACEROLA",
+      "scientific_name": "Malpighia glabra",
+      "perimeter_cm": 150.0
+    },
+    "expected": {
+      "tree_id": "EQ-0063",
+      "common_name": "ACEROLA",
+      "scientific_name": "Malpighia glabra",
+      "perimeter_cm": 150.0,
+      "dbh_cm": 47.7,
+      "trunk_diameter_m": 0.4775,
+      "height_m": 6.0,
+      "height_min_m": 5.0,
+      "height_max_m": 7.0,
+      "crown_diameter_x_m": 5.4,
+      "crown_diameter_y_m": 5.4,
+      "crown_base_height_m": 1.5,
+      "crown_depth_m": 4.5,
+      "crown_projected_area_m2": 22.9,
+      "crown_min_m": 3.9,
+      "crown_max_m": 6.9,
+      "crown_group": "compact",
+      "confidence": "medium",
+      "warnings": []
+    }
+  },
+  {
+    "input": {
+      "tree_id": "EQ-0064",
+      "common_name": "ACEROLA",
+      "scientific_name": "Malpighia glabra",
+      "perimeter_cm": 240.0
+    },
+    "expected": {
+      "tree_id": "EQ-0064",
+      "common_name": "ACEROLA",
+      "scientific_name": "Malpighia glabra",
+      "perimeter_cm": 240.0,
+      "dbh_cm": 76.4,
+      "trunk_diameter_m": 0.7639,
+      "height_m": 6.0,
+      "height_min_m": 5.0,
+      "height_max_m": 7.0,
+      "crown_diameter_x_m": 5.4,
+      "crown_diameter_y_m": 5.4,
+      "crown_base_height_m": 1.5,
+      "crown_depth_m": 4.5,
+      "crown_projected_area_m2": 22.9,
+      "crown_min_m": 3.9,
+      "crown_max_m": 6.9,
+      "crown_group": "compact",
+      "confidence": "medium",
+      "warnings": []
+    }
+  },
+  {
+    "input": {
+      "tree_id": "EQ-0065",
+      "common_name": "ACEROLA",
+      "scientific_name": "Malpighia glabra",
+      "perimeter_cm": 330.0
+    },
+    "expected": {
+      "tree_id": "EQ-0065",
+      "common_name": "ACEROLA",
+      "scientific_name": "Malpighia glabra",
+      "perimeter_cm": 330.0,
+      "dbh_cm": 105.0,
+      "trunk_diameter_m": 1.0504,
+      "height_m": 6.0,
+      "height_min_m": 5.0,
+      "height_max_m": 7.0,
+      "crown_diameter_x_m": 5.4,
+      "crown_diameter_y_m": 5.4,
+      "crown_base_height_m": 1.5,
+      "crown_depth_m": 4.5,
+      "crown_projected_area_m2": 22.9,
+      "crown_min_m": 3.9,
+      "crown_max_m": 6.9,
+      "crown_group": "compact",
+      "confidence": "medium",
+      "warnings": []
+    }
+  },
+  {
+    "input": {
+      "tree_id": "EQ-0066",
+      "common_name": "PITANGA",
+      "scientific_name": "Eugenia uniflora",
+      "perimeter_cm": 30.0
+    },
+    "expected": {
+      "tree_id": "EQ-0066",
+      "common_name": "PITANGA",
+      "scientific_name": "Eugenia uniflora",
+      "perimeter_cm": 30.0,
+      "dbh_cm": 9.5,
+      "trunk_diameter_m": 0.0955,
+      "height_m": 4.0,
+      "height_min_m": 3.0,
+      "height_max_m": 5.0,
+      "crown_diameter_x_m": 1.72,
+      "crown_diameter_y_m": 1.72,
+      "crown_base_height_m": 1.0,
+      "crown_depth_m": 3.0,
+      "crown_projected_area_m2": 2.32,
+      "crown_min_m": 0.22,
+      "crown_max_m": 3.22,
+      "crown_group": "compact",
+      "confidence": "medium",
+      "warnings": []
+    }
+  },
+  {
+    "input": {
+      "tree_id": "EQ-0067",
+      "common_name": "PITANGA",
+      "scientific_name": "Eugenia uniflora",
+      "perimeter_cm": 80.0
+    },
+    "expected": {
+      "tree_id": "EQ-0067",
+      "common_name": "PITANGA",
+      "scientific_name": "Eugenia uniflora",
+      "perimeter_cm": 80.0,
+      "dbh_cm": 25.5,
+      "trunk_diameter_m": 0.2546,
+      "height_m": 6.0,
+      "height_min_m": 5.0,
+      "height_max_m": 7.0,
+      "crown_diameter_x_m": 4.58,
+      "crown_diameter_y_m": 4.58,
+      "crown_base_height_m": 1.5,
+      "crown_depth_m": 4.5,
+      "crown_projected_area_m2": 16.49,
+      "crown_min_m": 3.08,
+      "crown_max_m": 6.08,
+      "crown_group": "compact",
+      "confidence": "medium",
+      "warnings": []
+    }
+  },
+  {
+    "input": {
+      "tree_id": "EQ-0068",
+      "common_name": "PITANGA",
+      "scientific_name": "Eugenia uniflora",
+      "perimeter_cm": 150.0
+    },
+    "expected": {
+      "tree_id": "EQ-0068",
+      "common_name": "PITANGA",
+      "scientific_name": "Eugenia uniflora",
+      "perimeter_cm": 150.0,
+      "dbh_cm": 47.7,
+      "trunk_diameter_m": 0.4775,
+      "height_m": 7.5,
+      "height_min_m": 6.0,
+      "height_max_m": 9.0,
+      "crown_diameter_x_m": 6.75,
+      "crown_diameter_y_m": 6.75,
+      "crown_base_height_m": 1.88,
+      "crown_depth_m": 5.62,
+      "crown_projected_area_m2": 35.78,
+      "crown_min_m": 5.25,
+      "crown_max_m": 8.25,
+      "crown_group": "compact",
+      "confidence": "medium",
+      "warnings": []
+    }
+  },
+  {
+    "input": {
+      "tree_id": "EQ-0069",
+      "common_name": "PITANGA",
+      "scientific_name": "Eugenia uniflora",
+      "perimeter_cm": 240.0
+    },
+    "expected": {
+      "tree_id": "EQ-0069",
+      "common_name": "PITANGA",
+      "scientific_name": "Eugenia uniflora",
+      "perimeter_cm": 240.0,
+      "dbh_cm": 76.4,
+      "trunk_diameter_m": 0.7639,
+      "height_m": 8.0,
+      "height_min_m": 6.5,
+      "height_max_m": 9.5,
+      "crown_diameter_x_m": 7.2,
+      "crown_diameter_y_m": 7.2,
+      "crown_base_height_m": 2.0,
+      "crown_depth_m": 6.0,
+      "crown_projected_area_m2": 40.72,
+      "crown_min_m": 5.7,
+      "crown_max_m": 8.7,
+      "crown_group": "compact",
+      "confidence": "medium",
+      "warnings": []
+    }
+  },
+  {
+    "input": {
+      "tree_id": "EQ-0070",
+      "common_name": "PITANGA",
+      "scientific_name": "Eugenia uniflora",
+      "perimeter_cm": 330.0
+    },
+    "expected": {
+      "tree_id": "EQ-0070",
+      "common_name": "PITANGA",
+      "scientific_name": "Eugenia uniflora",
+      "perimeter_cm": 330.0,
+      "dbh_cm": 105.0,
+      "trunk_diameter_m": 1.0504,
+      "height_m": 8.0,
+      "height_min_m": 6.5,
+      "height_max_m": 9.5,
+      "crown_diameter_x_m": 7.2,
+      "crown_diameter_y_m": 7.2,
+      "crown_base_height_m": 2.0,
+      "crown_depth_m": 6.0,
+      "crown_projected_area_m2": 40.72,
+      "crown_min_m": 5.7,
+      "crown_max_m": 8.7,
+      "crown_group": "compact",
+      "confidence": "medium",
+      "warnings": []
+    }
+  },
+  {
+    "input": {
+      "tree_id": "EQ-0071",
+      "common_name": "AÇOITA CAVALO",
+      "scientific_name": "Luehea divaricata",
+      "perimeter_cm": 30.0
+    },
+    "expected": {
+      "tree_id": "EQ-0071",
+      "common_name": "AÇOITA CAVALO",
+      "scientific_name": "Luehea divaricata",
+      "perimeter_cm": 30.0,
+      "dbh_cm": 9.5,
+      "trunk_diameter_m": 0.0955,
+      "height_m": 5.0,
+      "height_min_m": 4.0,
+      "height_max_m": 6.0,
+      "crown_diameter_x_m": 2.39,
+      "crown_diameter_y_m": 2.39,
+      "crown_base_height_m": 1.0,
+      "crown_depth_m": 4.0,
+      "crown_projected_area_m2": 4.48,
+      "crown_min_m": 0.89,
+      "crown_max_m": 3.89,
+      "crown_group": "broad",
+      "confidence": "medium",
+      "warnings": []
+    }
+  },
+  {
+    "input": {
+      "tree_id": "EQ-0072",
+      "common_name": "AÇOITA CAVALO",
+      "scientific_name": "Luehea divaricata",
+      "perimeter_cm": 80.0
+    },
+    "expected": {
+      "tree_id": "EQ-0072",
+      "common_name": "AÇOITA CAVALO",
+      "scientific_name": "Luehea divaricata",
+      "perimeter_cm": 80.0,
+      "dbh_cm": 25.5,
+      "trunk_diameter_m": 0.2546,
+      "height_m": 9.5,
+      "height_min_m": 7.5,
+      "height_max_m": 11.5,
+      "crown_diameter_x_m": 6.37,
+      "crown_diameter_y_m": 6.37,
+      "crown_base_height_m": 1.9,
+      "crown_depth_m": 7.6,
+      "crown_projected_area_m2": 31.82,
+      "crown_min_m": 4.87,
+      "crown_max_m": 7.87,
+      "crown_group": "broad",
+      "confidence": "medium",
+      "warnings": []
+    }
+  },
+  {
+    "input": {
+      "tree_id": "EQ-0073",
+      "common_name": "AÇOITA CAVALO",
+      "scientific_name": "Luehea divaricata",
+      "perimeter_cm": 150.0
+    },
+    "expected": {
+      "tree_id": "EQ-0073",
+      "common_name": "AÇOITA CAVALO",
+      "scientific_name": "Luehea divaricata",
+      "perimeter_cm": 150.0,
+      "dbh_cm": 47.7,
+      "trunk_diameter_m": 0.4775,
+      "height_m": 13.5,
+      "height_min_m": 11.0,
+      "height_max_m": 16.0,
+      "crown_diameter_x_m": 11.94,
+      "crown_diameter_y_m": 11.94,
+      "crown_base_height_m": 2.7,
+      "crown_depth_m": 10.8,
+      "crown_projected_area_m2": 111.92,
+      "crown_min_m": 9.55,
+      "crown_max_m": 14.32,
+      "crown_group": "broad",
+      "confidence": "medium",
+      "warnings": []
+    }
+  },
+  {
+    "input": {
+      "tree_id": "EQ-0074",
+      "common_name": "AÇOITA CAVALO",
+      "scientific_name": "Luehea divaricata",
+      "perimeter_cm": 240.0
+    },
+    "expected": {
+      "tree_id": "EQ-0074",
+      "common_name": "AÇOITA CAVALO",
+      "scientific_name": "Luehea divaricata",
+      "perimeter_cm": 240.0,
+      "dbh_cm": 76.4,
+      "trunk_diameter_m": 0.7639,
+      "height_m": 16.5,
+      "height_min_m": 13.0,
+      "height_max_m": 20.0,
+      "crown_diameter_x_m": 16.5,
+      "crown_diameter_y_m": 16.5,
+      "crown_base_height_m": 3.3,
+      "crown_depth_m": 13.2,
+      "crown_projected_area_m2": 213.82,
+      "crown_min_m": 13.2,
+      "crown_max_m": 19.8,
+      "crown_group": "broad",
+      "confidence": "medium",
+      "warnings": []
+    }
+  },
+  {
+    "input": {
+      "tree_id": "EQ-0075",
+      "common_name": "AÇOITA CAVALO",
+      "scientific_name": "Luehea divaricata",
+      "perimeter_cm": 330.0
+    },
+    "expected": {
+      "tree_id": "EQ-0075",
+      "common_name": "AÇOITA CAVALO",
+      "scientific_name": "Luehea divaricata",
+      "perimeter_cm": 330.0,
+      "dbh_cm": 105.0,
+      "trunk_diameter_m": 1.0504,
+      "height_m": 18.0,
+      "height_min_m": 14.5,
+      "height_max_m": 21.5,
+      "crown_diameter_x_m": 18.0,
+      "crown_diameter_y_m": 18.0,
+      "crown_base_height_m": 3.6,
+      "crown_depth_m": 14.4,
+      "crown_projected_area_m2": 254.47,
+      "crown_min_m": 14.4,
+      "crown_max_m": 21.6,
+      "crown_group": "broad",
+      "confidence": "medium",
+      "warnings": []
+    }
+  },
+  {
+    "input": {
+      "tree_id": "EQ-0076",
+      "common_name": "AROEIRA PIMENTEIRA",
+      "scientific_name": "Schinus terebinthifolia",
+      "perimeter_cm": 30.0
+    },
+    "expected": {
+      "tree_id": "EQ-0076",
+      "common_name": "AROEIRA PIMENTEIRA",
+      "scientific_name": "Schinus terebinthifolia",
+      "perimeter_cm": 30.0,
+      "dbh_cm": 9.5,
+      "trunk_diameter_m": 0.0955,
+      "height_m": 4.0,
+      "height_min_m": 3.0,
+      "height_max_m": 5.0,
+      "crown_diameter_x_m": 2.1,
+      "crown_diameter_y_m": 2.1,
+      "crown_base_height_m": 1.2,
+      "crown_depth_m": 2.8,
+      "crown_projected_area_m2": 3.47,
+      "crown_min_m": 0.6,
+      "crown_max_m": 3.6,
+      "crown_group": "intermediate",
+      "confidence": "medium",
+      "warnings": []
+    }
+  },
+  {
+    "input": {
+      "tree_id": "EQ-0077",
+      "common_name": "AROEIRA PIMENTEIRA",
+      "scientific_name": "Schinus terebinthifolia",
+      "perimeter_cm": 80.0
+    },
+    "expected": {
+      "tree_id": "EQ-0077",
+      "common_name": "AROEIRA PIMENTEIRA",
+      "scientific_name": "Schinus terebinthifolia",
+      "perimeter_cm": 80.0,
+      "dbh_cm": 25.5,
+      "trunk_diameter_m": 0.2546,
+      "height_m": 7.0,
+      "height_min_m": 5.5,
+      "height_max_m": 8.5,
+      "crown_diameter_x_m": 5.6,
+      "crown_diameter_y_m": 5.6,
+      "crown_base_height_m": 2.1,
+      "crown_depth_m": 4.9,
+      "crown_projected_area_m2": 24.63,
+      "crown_min_m": 4.1,
+      "crown_max_m": 7.1,
+      "crown_group": "intermediate",
+      "confidence": "medium",
+      "warnings": []
+    }
+  },
+  {
+    "input": {
+      "tree_id": "EQ-0078",
+      "common_name": "AROEIRA PIMENTEIRA",
+      "scientific_name": "Schinus terebinthifolia",
+      "perimeter_cm": 150.0
+    },
+    "expected": {
+      "tree_id": "EQ-0078",
+      "common_name": "AROEIRA PIMENTEIRA",
+      "scientific_name": "Schinus terebinthifolia",
+      "perimeter_cm": 150.0,
+      "dbh_cm": 47.7,
+      "trunk_diameter_m": 0.4775,
+      "height_m": 8.5,
+      "height_min_m": 7.0,
+      "height_max_m": 10.0,
+      "crown_diameter_x_m": 6.8,
+      "crown_diameter_y_m": 6.8,
+      "crown_base_height_m": 2.55,
+      "crown_depth_m": 5.95,
+      "crown_projected_area_m2": 36.32,
+      "crown_min_m": 5.3,
+      "crown_max_m": 8.3,
+      "crown_group": "intermediate",
+      "confidence": "medium",
+      "warnings": []
+    }
+  },
+  {
+    "input": {
+      "tree_id": "EQ-0079",
+      "common_name": "AROEIRA PIMENTEIRA",
+      "scientific_name": "Schinus terebinthifolia",
+      "perimeter_cm": 240.0
+    },
+    "expected": {
+      "tree_id": "EQ-0079",
+      "common_name": "AROEIRA PIMENTEIRA",
+      "scientific_name": "Schinus terebinthifolia",
+      "perimeter_cm": 240.0,
+      "dbh_cm": 76.4,
+      "trunk_diameter_m": 0.7639,
+      "height_m": 9.5,
+      "height_min_m": 7.5,
+      "height_max_m": 11.5,
+      "crown_diameter_x_m": 7.6,
+      "crown_diameter_y_m": 7.6,
+      "crown_base_height_m": 2.85,
+      "crown_depth_m": 6.65,
+      "crown_projected_area_m2": 45.36,
+      "crown_min_m": 6.08,
+      "crown_max_m": 9.12,
+      "crown_group": "intermediate",
+      "confidence": "medium",
+      "warnings": []
+    }
+  },
+  {
+    "input": {
+      "tree_id": "EQ-0080",
+      "common_name": "AROEIRA PIMENTEIRA",
+      "scientific_name": "Schinus terebinthifolia",
+      "perimeter_cm": 330.0
+    },
+    "expected": {
+      "tree_id": "EQ-0080",
+      "common_name": "AROEIRA PIMENTEIRA",
+      "scientific_name": "Schinus terebinthifolia",
+      "perimeter_cm": 330.0,
+      "dbh_cm": 105.0,
+      "trunk_diameter_m": 1.0504,
+      "height_m": 10.0,
+      "height_min_m": 8.0,
+      "height_max_m": 12.0,
+      "crown_diameter_x_m": 8.0,
+      "crown_diameter_y_m": 8.0,
+      "crown_base_height_m": 3.0,
+      "crown_depth_m": 7.0,
+      "crown_projected_area_m2": 50.27,
+      "crown_min_m": 6.4,
+      "crown_max_m": 9.6,
+      "crown_group": "intermediate",
+      "confidence": "medium",
+      "warnings": []
+    }
+  },
+  {
+    "input": {
+      "tree_id": "EQ-0081",
+      "common_name": "AMOREIRA BRANCA",
+      "scientific_name": "Morus alba",
+      "perimeter_cm": 30.0
+    },
+    "expected": {
+      "tree_id": "EQ-0081",
+      "common_name": "AMOREIRA BRANCA",
+      "scientific_name": "Morus alba",
+      "perimeter_cm": 30.0,
+      "dbh_cm": 9.5,
+      "trunk_diameter_m": 0.0955,
+      "height_m": 4.0,
+      "height_min_m": 3.0,
+      "height_max_m": 5.0,
+      "crown_diameter_x_m": 2.39,
+      "crown_diameter_y_m": 2.39,
+      "crown_base_height_m": 0.8,
+      "crown_depth_m": 3.2,
+      "crown_projected_area_m2": 4.48,
+      "crown_min_m": 0.89,
+      "crown_max_m": 3.89,
+      "crown_group": "broad",
+      "confidence": "medium",
+      "warnings": []
+    }
+  },
+  {
+    "input": {
+      "tree_id": "EQ-0082",
+      "common_name": "AMOREIRA BRANCA",
+      "scientific_name": "Morus alba",
+      "perimeter_cm": 80.0
+    },
+    "expected": {
+      "tree_id": "EQ-0082",
+      "common_name": "AMOREIRA BRANCA",
+      "scientific_name": "Morus alba",
+      "perimeter_cm": 80.0,
+      "dbh_cm": 25.5,
+      "trunk_diameter_m": 0.2546,
+      "height_m": 7.5,
+      "height_min_m": 6.0,
+      "height_max_m": 9.0,
+      "crown_diameter_x_m": 6.37,
+      "crown_diameter_y_m": 6.37,
+      "crown_base_height_m": 1.5,
+      "crown_depth_m": 6.0,
+      "crown_projected_area_m2": 31.82,
+      "crown_min_m": 4.87,
+      "crown_max_m": 7.87,
+      "crown_group": "broad",
+      "confidence": "medium",
+      "warnings": []
+    }
+  },
+  {
+    "input": {
+      "tree_id": "EQ-0083",
+      "common_name": "AMOREIRA BRANCA",
+      "scientific_name": "Morus alba",
+      "perimeter_cm": 150.0
+    },
+    "expected": {
+      "tree_id": "EQ-0083",
+      "common_name": "AMOREIRA BRANCA",
+      "scientific_name": "Morus alba",
+      "perimeter_cm": 150.0,
+      "dbh_cm": 47.7,
+      "trunk_diameter_m": 0.4775,
+      "height_m": 10.0,
+      "height_min_m": 8.0,
+      "height_max_m": 12.0,
+      "crown_diameter_x_m": 10.0,
+      "crown_diameter_y_m": 10.0,
+      "crown_base_height_m": 2.0,
+      "crown_depth_m": 8.0,
+      "crown_projected_area_m2": 78.54,
+      "crown_min_m": 8.0,
+      "crown_max_m": 12.0,
+      "crown_group": "broad",
+      "confidence": "medium",
+      "warnings": []
+    }
+  },
+  {
+    "input": {
+      "tree_id": "EQ-0084",
+      "common_name": "AMOREIRA BRANCA",
+      "scientific_name": "Morus alba",
+      "perimeter_cm": 240.0
+    },
+    "expected": {
+      "tree_id": "EQ-0084",
+      "common_name": "AMOREIRA BRANCA",
+      "scientific_name": "Morus alba",
+      "perimeter_cm": 240.0,
+      "dbh_cm": 76.4,
+      "trunk_diameter_m": 0.7639,
+      "height_m": 11.0,
+      "height_min_m": 9.0,
+      "height_max_m": 13.0,
+      "crown_diameter_x_m": 11.0,
+      "crown_diameter_y_m": 11.0,
+      "crown_base_height_m": 2.2,
+      "crown_depth_m": 8.8,
+      "crown_projected_area_m2": 95.03,
+      "crown_min_m": 8.8,
+      "crown_max_m": 13.2,
+      "crown_group": "broad",
+      "confidence": "medium",
+      "warnings": []
+    }
+  },
+  {
+    "input": {
+      "tree_id": "EQ-0085",
+      "common_name": "AMOREIRA BRANCA",
+      "scientific_name": "Morus alba",
+      "perimeter_cm": 330.0
+    },
+    "expected": {
+      "tree_id": "EQ-0085",
+      "common_name": "AMOREIRA BRANCA",
+      "scientific_name": "Morus alba",
+      "perimeter_cm": 330.0,
+      "dbh_cm": 105.0,
+      "trunk_diameter_m": 1.0504,
+      "height_m": 11.5,
+      "height_min_m": 9.0,
+      "height_max_m": 14.0,
+      "crown_diameter_x_m": 11.5,
+      "crown_diameter_y_m": 11.5,
+      "crown_base_height_m": 2.3,
+      "crown_depth_m": 9.2,
+      "crown_projected_area_m2": 103.87,
+      "crown_min_m": 9.2,
+      "crown_max_m": 13.8,
+      "crown_group": "broad",
+      "confidence": "medium",
+      "warnings": []
+    }
+  },
+  {
+    "input": {
+      "tree_id": "EQ-0086",
+      "common_name": "ALBIZIA",
+      "scientific_name": "Fabaceae (indet.)",
+      "perimeter_cm": 30.0
+    },
+    "expected": {
+      "tree_id": "EQ-0086",
+      "common_name": "ALBIZIA",
+      "scientific_name": "Fabaceae (indet.)",
+      "perimeter_cm": 30.0,
+      "dbh_cm": 9.5,
+      "trunk_diameter_m": 0.0955,
+      "height_m": 5.0,
+      "height_min_m": 4.0,
+      "height_max_m": 6.0,
+      "crown_diameter_x_m": 2.39,
+      "crown_diameter_y_m": 2.39,
+      "crown_base_height_m": 1.0,
+      "crown_depth_m": 4.0,
+      "crown_projected_area_m2": 4.48,
+      "crown_min_m": 0.89,
+      "crown_max_m": 3.89,
+      "crown_group": "broad",
+      "confidence": "low",
+      "warnings": []
+    }
+  },
+  {
+    "input": {
+      "tree_id": "EQ-0087",
+      "common_name": "ALBIZIA",
+      "scientific_name": "Fabaceae (indet.)",
+      "perimeter_cm": 80.0
+    },
+    "expected": {
+      "tree_id": "EQ-0087",
+      "common_name": "ALBIZIA",
+      "scientific_name": "Fabaceae (indet.)",
+      "perimeter_cm": 80.0,
+      "dbh_cm": 25.5,
+      "trunk_diameter_m": 0.2546,
+      "height_m": 9.0,
+      "height_min_m": 7.0,
+      "height_max_m": 11.0,
+      "crown_diameter_x_m": 6.37,
+      "crown_diameter_y_m": 6.37,
+      "crown_base_height_m": 1.8,
+      "crown_depth_m": 7.2,
+      "crown_projected_area_m2": 31.82,
+      "crown_min_m": 4.87,
+      "crown_max_m": 7.87,
+      "crown_group": "broad",
+      "confidence": "low",
+      "warnings": []
+    }
+  },
+  {
+    "input": {
+      "tree_id": "EQ-0088",
+      "common_name": "ALBIZIA",
+      "scientific_name": "Fabaceae (indet.)",
+      "perimeter_cm": 150.0
+    },
+    "expected": {
+      "tree_id": "EQ-0088",
+      "common_name": "ALBIZIA",
+      "scientific_name": "Fabaceae (indet.)",
+      "perimeter_cm": 150.0,
+      "dbh_cm": 47.7,
+      "trunk_diameter_m": 0.4775,
+      "height_m": 13.0,
+      "height_min_m": 10.5,
+      "height_max_m": 15.5,
+      "crown_diameter_x_m": 11.94,
+      "crown_diameter_y_m": 11.94,
+      "crown_base_height_m": 2.6,
+      "crown_depth_m": 10.4,
+      "crown_projected_area_m2": 111.92,
+      "crown_min_m": 9.55,
+      "crown_max_m": 14.32,
+      "crown_group": "broad",
+      "confidence": "low",
+      "warnings": []
+    }
+  },
+  {
+    "input": {
+      "tree_id": "EQ-0089",
+      "common_name": "ALBIZIA",
+      "scientific_name": "Fabaceae (indet.)",
+      "perimeter_cm": 240.0
+    },
+    "expected": {
+      "tree_id": "EQ-0089",
+      "common_name": "ALBIZIA",
+      "scientific_name": "Fabaceae (indet.)",
+      "perimeter_cm": 240.0,
+      "dbh_cm": 76.4,
+      "trunk_diameter_m": 0.7639,
+      "height_m": 15.5,
+      "height_min_m": 12.5,
+      "height_max_m": 18.5,
+      "crown_diameter_x_m": 15.5,
+      "crown_diameter_y_m": 15.5,
+      "crown_base_height_m": 3.1,
+      "crown_depth_m": 12.4,
+      "crown_projected_area_m2": 188.69,
+      "crown_min_m": 12.4,
+      "crown_max_m": 18.6,
+      "crown_group": "broad",
+      "confidence": "low",
+      "warnings": []
+    }
+  },
+  {
+    "input": {
+      "tree_id": "EQ-0090",
+      "common_name": "ALBIZIA",
+      "scientific_name": "Fabaceae (indet.)",
+      "perimeter_cm": 330.0
+    },
+    "expected": {
+      "tree_id": "EQ-0090",
+      "common_name": "ALBIZIA",
+      "scientific_name": "Fabaceae (indet.)",
+      "perimeter_cm": 330.0,
+      "dbh_cm": 105.0,
+      "trunk_diameter_m": 1.0504,
+      "height_m": 17.0,
+      "height_min_m": 13.5,
+      "height_max_m": 20.5,
+      "crown_diameter_x_m": 17.0,
+      "crown_diameter_y_m": 17.0,
+      "crown_base_height_m": 3.4,
+      "crown_depth_m": 13.6,
+      "crown_projected_area_m2": 226.98,
+      "crown_min_m": 13.6,
+      "crown_max_m": 20.4,
+      "crown_group": "broad",
+      "confidence": "low",
+      "warnings": []
+    }
+  },
+  {
+    "input": {
+      "tree_id": "EQ-0091",
+      "common_name": "OITI",
+      "scientific_name": "Licania tomentosa",
+      "perimeter_cm": 30.0
+    },
+    "expected": {
+      "tree_id": "EQ-0091",
+      "common_name": "OITI",
+      "scientific_name": "Licania tomentosa",
+      "perimeter_cm": 30.0,
+      "dbh_cm": 9.5,
+      "trunk_diameter_m": 0.0955,
+      "height_m": 4.5,
+      "height_min_m": 3.5,
+      "height_max_m": 5.5,
+      "crown_diameter_x_m": 1.72,
+      "crown_diameter_y_m": 1.72,
+      "crown_base_height_m": 1.12,
+      "crown_depth_m": 3.38,
+      "crown_projected_area_m2": 2.32,
+      "crown_min_m": 0.22,
+      "crown_max_m": 3.22,
+      "crown_group": "compact",
+      "confidence": "medium",
+      "warnings": []
+    }
+  },
+  {
+    "input": {
+      "tree_id": "EQ-0092",
+      "common_name": "OITI",
+      "scientific_name": "Licania tomentosa",
+      "perimeter_cm": 80.0
+    },
+    "expected": {
+      "tree_id": "EQ-0092",
+      "common_name": "OITI",
+      "scientific_name": "Licania tomentosa",
+      "perimeter_cm": 80.0,
+      "dbh_cm": 25.5,
+      "trunk_diameter_m": 0.2546,
+      "height_m": 8.5,
+      "height_min_m": 7.0,
+      "height_max_m": 10.0,
+      "crown_diameter_x_m": 4.58,
+      "crown_diameter_y_m": 4.58,
+      "crown_base_height_m": 2.12,
+      "crown_depth_m": 6.38,
+      "crown_projected_area_m2": 16.49,
+      "crown_min_m": 3.08,
+      "crown_max_m": 6.08,
+      "crown_group": "compact",
+      "confidence": "medium",
+      "warnings": []
+    }
+  },
+  {
+    "input": {
+      "tree_id": "EQ-0093",
+      "common_name": "OITI",
+      "scientific_name": "Licania tomentosa",
+      "perimeter_cm": 150.0
+    },
+    "expected": {
+      "tree_id": "EQ-0093",
+      "common_name": "OITI",
+      "scientific_name": "Licania tomentosa",
+      "perimeter_cm": 150.0,
+      "dbh_cm": 47.7,
+      "trunk_diameter_m": 0.4775,
+      "height_m": 11.5,
+      "height_min_m": 9.0,
+      "height_max_m": 14.0,
+      "crown_diameter_x_m": 8.59,
+      "crown_diameter_y_m": 8.59,
+      "crown_base_height_m": 2.88,
+      "crown_depth_m": 8.62,
+      "crown_projected_area_m2": 58.02,
+      "crown_min_m": 6.88,
+      "crown_max_m": 10.31,
+      "crown_group": "compact",
+      "confidence": "medium",
+      "warnings": []
+    }
+  },
+  {
+    "input": {
+      "tree_id": "EQ-0094",
+      "common_name": "OITI",
+      "scientific_name": "Licania tomentosa",
+      "perimeter_cm": 240.0
+    },
+    "expected": {
+      "tree_id": "EQ-0094",
+      "common_name": "OITI",
+      "scientific_name": "Licania tomentosa",
+      "perimeter_cm": 240.0,
+      "dbh_cm": 76.4,
+      "trunk_diameter_m": 0.7639,
+      "height_m": 13.5,
+      "height_min_m": 11.0,
+      "height_max_m": 16.0,
+      "crown_diameter_x_m": 12.15,
+      "crown_diameter_y_m": 12.15,
+      "crown_base_height_m": 3.38,
+      "crown_depth_m": 10.12,
+      "crown_projected_area_m2": 115.94,
+      "crown_min_m": 9.72,
+      "crown_max_m": 14.58,
+      "crown_group": "compact",
+      "confidence": "medium",
+      "warnings": []
+    }
+  },
+  {
+    "input": {
+      "tree_id": "EQ-0095",
+      "common_name": "OITI",
+      "scientific_name": "Licania tomentosa",
+      "perimeter_cm": 330.0
+    },
+    "expected": {
+      "tree_id": "EQ-0095",
+      "common_name": "OITI",
+      "scientific_name": "Licania tomentosa",
+      "perimeter_cm": 330.0,
+      "dbh_cm": 105.0,
+      "trunk_diameter_m": 1.0504,
+      "height_m": 14.5,
+      "height_min_m": 11.5,
+      "height_max_m": 17.5,
+      "crown_diameter_x_m": 13.05,
+      "crown_diameter_y_m": 13.05,
+      "crown_base_height_m": 3.62,
+      "crown_depth_m": 10.88,
+      "crown_projected_area_m2": 133.76,
+      "crown_min_m": 10.44,
+      "crown_max_m": 15.66,
+      "crown_group": "compact",
+      "confidence": "medium",
+      "warnings": []
+    }
+  },
+  {
+    "input": {
+      "tree_id": "EQ-0096",
+      "common_name": "AMORA",
+      "scientific_name": "Morus nigra",
+      "perimeter_cm": 30.0
+    },
+    "expected": {
+      "tree_id": "EQ-0096",
+      "common_name": "AMORA",
+      "scientific_name": "Morus nigra",
+      "perimeter_cm": 30.0,
+      "dbh_cm": 9.5,
+      "trunk_diameter_m": 0.0955,
+      "height_m": 4.0,
+      "height_min_m": 3.0,
+      "height_max_m": 5.0,
+      "crown_diameter_x_m": 2.1,
+      "crown_diameter_y_m": 2.1,
+      "crown_base_height_m": 1.2,
+      "crown_depth_m": 2.8,
+      "crown_projected_area_m2": 3.47,
+      "crown_min_m": 0.6,
+      "crown_max_m": 3.6,
+      "crown_group": "intermediate",
+      "confidence": "medium",
+      "warnings": []
+    }
+  },
+  {
+    "input": {
+      "tree_id": "EQ-0097",
+      "common_name": "AMORA",
+      "scientific_name": "Morus nigra",
+      "perimeter_cm": 80.0
+    },
+    "expected": {
+      "tree_id": "EQ-0097",
+      "common_name": "AMORA",
+      "scientific_name": "Morus nigra",
+      "perimeter_cm": 80.0,
+      "dbh_cm": 25.5,
+      "trunk_diameter_m": 0.2546,
+      "height_m": 7.5,
+      "height_min_m": 6.0,
+      "height_max_m": 9.0,
+      "crown_diameter_x_m": 5.6,
+      "crown_diameter_y_m": 5.6,
+      "crown_base_height_m": 2.25,
+      "crown_depth_m": 5.25,
+      "crown_projected_area_m2": 24.64,
+      "crown_min_m": 4.1,
+      "crown_max_m": 7.1,
+      "crown_group": "intermediate",
+      "confidence": "medium",
+      "warnings": []
+    }
+  },
+  {
+    "input": {
+      "tree_id": "EQ-0098",
+      "common_name": "AMORA",
+      "scientific_name": "Morus nigra",
+      "perimeter_cm": 150.0
+    },
+    "expected": {
+      "tree_id": "EQ-0098",
+      "common_name": "AMORA",
+      "scientific_name": "Morus nigra",
+      "perimeter_cm": 150.0,
+      "dbh_cm": 47.7,
+      "trunk_diameter_m": 0.4775,
+      "height_m": 10.0,
+      "height_min_m": 8.0,
+      "height_max_m": 12.0,
+      "crown_diameter_x_m": 8.0,
+      "crown_diameter_y_m": 8.0,
+      "crown_base_height_m": 3.0,
+      "crown_depth_m": 7.0,
+      "crown_projected_area_m2": 50.27,
+      "crown_min_m": 6.4,
+      "crown_max_m": 9.6,
+      "crown_group": "intermediate",
+      "confidence": "medium",
+      "warnings": []
+    }
+  },
+  {
+    "input": {
+      "tree_id": "EQ-0099",
+      "common_name": "AMORA",
+      "scientific_name": "Morus nigra",
+      "perimeter_cm": 240.0
+    },
+    "expected": {
+      "tree_id": "EQ-0099",
+      "common_name": "AMORA",
+      "scientific_name": "Morus nigra",
+      "perimeter_cm": 240.0,
+      "dbh_cm": 76.4,
+      "trunk_diameter_m": 0.7639,
+      "height_m": 11.0,
+      "height_min_m": 9.0,
+      "height_max_m": 13.0,
+      "crown_diameter_x_m": 8.8,
+      "crown_diameter_y_m": 8.8,
+      "crown_base_height_m": 3.3,
+      "crown_depth_m": 7.7,
+      "crown_projected_area_m2": 60.82,
+      "crown_min_m": 7.04,
+      "crown_max_m": 10.56,
+      "crown_group": "intermediate",
+      "confidence": "medium",
+      "warnings": []
+    }
+  },
+  {
+    "input": {
+      "tree_id": "EQ-0100",
+      "common_name": "AMORA",
+      "scientific_name": "Morus nigra",
+      "perimeter_cm": 330.0
+    },
+    "expected": {
+      "tree_id": "EQ-0100",
+      "common_name": "AMORA",
+      "scientific_name": "Morus nigra",
+      "perimeter_cm": 330.0,
+      "dbh_cm": 105.0,
+      "trunk_diameter_m": 1.0504,
+      "height_m": 11.5,
+      "height_min_m": 9.0,
+      "height_max_m": 14.0,
+      "crown_diameter_x_m": 9.2,
+      "crown_diameter_y_m": 9.2,
+      "crown_base_height_m": 3.45,
+      "crown_depth_m": 8.05,
+      "crown_projected_area_m2": 66.48,
+      "crown_min_m": 7.36,
+      "crown_max_m": 11.04,
+      "crown_group": "intermediate",
+      "confidence": "medium",
+      "warnings": []
+    }
+  },
+  {
+    "input": {
+      "tree_id": "EQ-0101",
+      "common_name": "PAU REI",
+      "scientific_name": "Pterygota brasiliensis",
+      "perimeter_cm": 30.0
+    },
+    "expected": {
+      "tree_id": "EQ-0101",
+      "common_name": "PAU REI",
+      "scientific_name": "Pterygota brasiliensis",
+      "perimeter_cm": 30.0,
+      "dbh_cm": 9.5,
+      "trunk_diameter_m": 0.0955,
+      "height_m": 5.5,
+      "height_min_m": 4.5,
+      "height_max_m": 6.5,
+      "crown_diameter_x_m": 2.1,
+      "crown_diameter_y_m": 2.1,
+      "crown_base_height_m": 1.65,
+      "crown_depth_m": 3.85,
+      "crown_projected_area_m2": 3.47,
+      "crown_min_m": 0.6,
+      "crown_max_m": 3.6,
+      "crown_group": "intermediate",
+      "confidence": "medium",
+      "warnings": []
+    }
+  },
+  {
+    "input": {
+      "tree_id": "EQ-0102",
+      "common_name": "PAU REI",
+      "scientific_name": "Pterygota brasiliensis",
+      "perimeter_cm": 80.0
+    },
+    "expected": {
+      "tree_id": "EQ-0102",
+      "common_name": "PAU REI",
+      "scientific_name": "Pterygota brasiliensis",
+      "perimeter_cm": 80.0,
+      "dbh_cm": 25.5,
+      "trunk_diameter_m": 0.2546,
+      "height_m": 11.0,
+      "height_min_m": 9.0,
+      "height_max_m": 13.0,
+      "crown_diameter_x_m": 5.6,
+      "crown_diameter_y_m": 5.6,
+      "crown_base_height_m": 3.3,
+      "crown_depth_m": 7.7,
+      "crown_projected_area_m2": 24.64,
+      "crown_min_m": 4.1,
+      "crown_max_m": 7.1,
+      "crown_group": "intermediate",
+      "confidence": "medium",
+      "warnings": []
+    }
+  },
+  {
+    "input": {
+      "tree_id": "EQ-0103",
+      "common_name": "PAU REI",
+      "scientific_name": "Pterygota brasiliensis",
+      "perimeter_cm": 150.0
+    },
+    "expected": {
+      "tree_id": "EQ-0103",
+      "common_name": "PAU REI",
+      "scientific_name": "Pterygota brasiliensis",
+      "perimeter_cm": 150.0,
+      "dbh_cm": 47.7,
+      "trunk_diameter_m": 0.4775,
+      "height_m": 16.0,
+      "height_min_m": 13.0,
+      "height_max_m": 19.0,
+      "crown_diameter_x_m": 10.5,
+      "crown_diameter_y_m": 10.5,
+      "crown_base_height_m": 4.8,
+      "crown_depth_m": 11.2,
+      "crown_projected_area_m2": 86.67,
+      "crown_min_m": 8.4,
+      "crown_max_m": 12.61,
+      "crown_group": "intermediate",
+      "confidence": "medium",
+      "warnings": []
+    }
+  },
+  {
+    "input": {
+      "tree_id": "EQ-0104",
+      "common_name": "PAU REI",
+      "scientific_name": "Pterygota brasiliensis",
+      "perimeter_cm": 240.0
+    },
+    "expected": {
+      "tree_id": "EQ-0104",
+      "common_name": "PAU REI",
+      "scientific_name": "Pterygota brasiliensis",
+      "perimeter_cm": 240.0,
+      "dbh_cm": 76.4,
+      "trunk_diameter_m": 0.7639,
+      "height_m": 20.0,
+      "height_min_m": 16.0,
+      "height_max_m": 24.0,
+      "crown_diameter_x_m": 16.0,
+      "crown_diameter_y_m": 16.0,
+      "crown_base_height_m": 6.0,
+      "crown_depth_m": 14.0,
+      "crown_projected_area_m2": 201.06,
+      "crown_min_m": 12.8,
+      "crown_max_m": 19.2,
+      "crown_group": "intermediate",
+      "confidence": "medium",
+      "warnings": []
+    }
+  },
+  {
+    "input": {
+      "tree_id": "EQ-0105",
+      "common_name": "PAU REI",
+      "scientific_name": "Pterygota brasiliensis",
+      "perimeter_cm": 330.0
+    },
+    "expected": {
+      "tree_id": "EQ-0105",
+      "common_name": "PAU REI",
+      "scientific_name": "Pterygota brasiliensis",
+      "perimeter_cm": 330.0,
+      "dbh_cm": 105.0,
+      "trunk_diameter_m": 1.0504,
+      "height_m": 22.0,
+      "height_min_m": 17.5,
+      "height_max_m": 26.5,
+      "crown_diameter_x_m": 17.6,
+      "crown_diameter_y_m": 17.6,
+      "crown_base_height_m": 6.6,
+      "crown_depth_m": 15.4,
+      "crown_projected_area_m2": 243.28,
+      "crown_min_m": 14.08,
+      "crown_max_m": 21.12,
+      "crown_group": "intermediate",
+      "confidence": "medium",
+      "warnings": []
+    }
+  },
+  {
+    "input": {
+      "tree_id": "EQ-0106",
+      "common_name": "PAINEIRA VERMELHA",
+      "scientific_name": "Bombax ceiba",
+      "perimeter_cm": 30.0
+    },
+    "expected": {
+      "tree_id": "EQ-0106",
+      "common_name": "PAINEIRA VERMELHA",
+      "scientific_name": "Bombax ceiba",
+      "perimeter_cm": 30.0,
+      "dbh_cm": 9.5,
+      "trunk_diameter_m": 0.0955,
+      "height_m": 5.5,
+      "height_min_m": 4.5,
+      "height_max_m": 6.5,
+      "crown_diameter_x_m": 2.39,
+      "crown_diameter_y_m": 2.39,
+      "crown_base_height_m": 1.1,
+      "crown_depth_m": 4.4,
+      "crown_projected_area_m2": 4.48,
+      "crown_min_m": 0.89,
+      "crown_max_m": 3.89,
+      "crown_group": "broad",
+      "confidence": "medium",
+      "warnings": []
+    }
+  },
+  {
+    "input": {
+      "tree_id": "EQ-0107",
+      "common_name": "PAINEIRA VERMELHA",
+      "scientific_name": "Bombax ceiba",
+      "perimeter_cm": 80.0
+    },
+    "expected": {
+      "tree_id": "EQ-0107",
+      "common_name": "PAINEIRA VERMELHA",
+      "scientific_name": "Bombax ceiba",
+      "perimeter_cm": 80.0,
+      "dbh_cm": 25.5,
+      "trunk_diameter_m": 0.2546,
+      "height_m": 11.0,
+      "height_min_m": 9.0,
+      "height_max_m": 13.0,
+      "crown_diameter_x_m": 6.37,
+      "crown_diameter_y_m": 6.37,
+      "crown_base_height_m": 2.2,
+      "crown_depth_m": 8.8,
+      "crown_projected_area_m2": 31.82,
+      "crown_min_m": 4.87,
+      "crown_max_m": 7.87,
+      "crown_group": "broad",
+      "confidence": "medium",
+      "warnings": []
+    }
+  },
+  {
+    "input": {
+      "tree_id": "EQ-0108",
+      "common_name": "PAINEIRA VERMELHA",
+      "scientific_name": "Bombax ceiba",
+      "perimeter_cm": 150.0
+    },
+    "expected": {
+      "tree_id": "EQ-0108",
+      "common_name": "PAINEIRA VERMELHA",
+      "scientific_name": "Bombax ceiba",
+      "perimeter_cm": 150.0,
+      "dbh_cm": 47.7,
+      "trunk_diameter_m": 0.4775,
+      "height_m": 16.0,
+      "height_min_m": 13.0,
+      "height_max_m": 19.0,
+      "crown_diameter_x_m": 11.94,
+      "crown_diameter_y_m": 11.94,
+      "crown_base_height_m": 3.2,
+      "crown_depth_m": 12.8,
+      "crown_projected_area_m2": 111.92,
+      "crown_min_m": 9.55,
+      "crown_max_m": 14.32,
+      "crown_group": "broad",
+      "confidence": "medium",
+      "warnings": []
+    }
+  },
+  {
+    "input": {
+      "tree_id": "EQ-0109",
+      "common_name": "PAINEIRA VERMELHA",
+      "scientific_name": "Bombax ceiba",
+      "perimeter_cm": 240.0
+    },
+    "expected": {
+      "tree_id": "EQ-0109",
+      "common_name": "PAINEIRA VERMELHA",
+      "scientific_name": "Bombax ceiba",
+      "perimeter_cm": 240.0,
+      "dbh_cm": 76.4,
+      "trunk_diameter_m": 0.7639,
+      "height_m": 20.0,
+      "height_min_m": 16.0,
+      "height_max_m": 24.0,
+      "crown_diameter_x_m": 19.1,
+      "crown_diameter_y_m": 19.1,
+      "crown_base_height_m": 4.0,
+      "crown_depth_m": 16.0,
+      "crown_projected_area_m2": 286.45,
+      "crown_min_m": 15.28,
+      "crown_max_m": 22.92,
+      "crown_group": "broad",
+      "confidence": "medium",
+      "warnings": []
+    }
+  },
+  {
+    "input": {
+      "tree_id": "EQ-0110",
+      "common_name": "PAINEIRA VERMELHA",
+      "scientific_name": "Bombax ceiba",
+      "perimeter_cm": 330.0
+    },
+    "expected": {
+      "tree_id": "EQ-0110",
+      "common_name": "PAINEIRA VERMELHA",
+      "scientific_name": "Bombax ceiba",
+      "perimeter_cm": 330.0,
+      "dbh_cm": 105.0,
+      "trunk_diameter_m": 1.0504,
+      "height_m": 22.0,
+      "height_min_m": 17.5,
+      "height_max_m": 26.5,
+      "crown_diameter_x_m": 22.0,
+      "crown_diameter_y_m": 22.0,
+      "crown_base_height_m": 4.4,
+      "crown_depth_m": 17.6,
+      "crown_projected_area_m2": 380.13,
+      "crown_min_m": 17.6,
+      "crown_max_m": 26.4,
+      "crown_group": "broad",
+      "confidence": "medium",
+      "warnings": []
+    }
+  },
+  {
+    "input": {
+      "tree_id": "EQ-0111",
+      "common_name": "SANGRA D'ÁGUA",
+      "scientific_name": "Croton urucurana",
+      "perimeter_cm": 30.0
+    },
+    "expected": {
+      "tree_id": "EQ-0111",
+      "common_name": "SANGRA D'ÁGUA",
+      "scientific_name": "Croton urucurana",
+      "perimeter_cm": 30.0,
+      "dbh_cm": 9.5,
+      "trunk_diameter_m": 0.0955,
+      "height_m": 4.5,
+      "height_min_m": 3.5,
+      "height_max_m": 5.5,
+      "crown_diameter_x_m": 2.1,
+      "crown_diameter_y_m": 2.1,
+      "crown_base_height_m": 1.35,
+      "crown_depth_m": 3.15,
+      "crown_projected_area_m2": 3.47,
+      "crown_min_m": 0.6,
+      "crown_max_m": 3.6,
+      "crown_group": "intermediate",
+      "confidence": "medium",
+      "warnings": []
+    }
+  },
+  {
+    "input": {
+      "tree_id": "EQ-0112",
+      "common_name": "SANGRA D'ÁGUA",
+      "scientific_name": "Croton urucurana",
+      "perimeter_cm": 80.0
+    },
+    "expected": {
+      "tree_id": "EQ-0112",
+      "common_name": "SANGRA D'ÁGUA",
+      "scientific_name": "Croton urucurana",
+      "perimeter_cm": 80.0,
+      "dbh_cm": 25.5,
+      "trunk_diameter_m": 0.2546,
+      "height_m": 8.5,
+      "height_min_m": 7.0,
+      "height_max_m": 10.0,
+      "crown_diameter_x_m": 5.6,
+      "crown_diameter_y_m": 5.6,
+      "crown_base_height_m": 2.55,
+      "crown_depth_m": 5.95,
+      "crown_projected_area_m2": 24.64,
+      "crown_min_m": 4.1,
+      "crown_max_m": 7.1,
+      "crown_group": "intermediate",
+      "confidence": "medium",
+      "warnings": []
+    }
+  },
+  {
+    "input": {
+      "tree_id": "EQ-0113",
+      "common_name": "SANGRA D'ÁGUA",
+      "scientific_name": "Croton urucurana",
+      "perimeter_cm": 150.0
+    },
+    "expected": {
+      "tree_id": "EQ-0113",
+      "common_name": "SANGRA D'ÁGUA",
+      "scientific_name": "Croton urucurana",
+      "perimeter_cm": 150.0,
+      "dbh_cm": 47.7,
+      "trunk_diameter_m": 0.4775,
+      "height_m": 11.5,
+      "height_min_m": 9.0,
+      "height_max_m": 14.0,
+      "crown_diameter_x_m": 9.2,
+      "crown_diameter_y_m": 9.2,
+      "crown_base_height_m": 3.45,
+      "crown_depth_m": 8.05,
+      "crown_projected_area_m2": 66.48,
+      "crown_min_m": 7.36,
+      "crown_max_m": 11.04,
+      "crown_group": "intermediate",
+      "confidence": "medium",
+      "warnings": []
+    }
+  },
+  {
+    "input": {
+      "tree_id": "EQ-0114",
+      "common_name": "SANGRA D'ÁGUA",
+      "scientific_name": "Croton urucurana",
+      "perimeter_cm": 240.0
+    },
+    "expected": {
+      "tree_id": "EQ-0114",
+      "common_name": "SANGRA D'ÁGUA",
+      "scientific_name": "Croton urucurana",
+      "perimeter_cm": 240.0,
+      "dbh_cm": 76.4,
+      "trunk_diameter_m": 0.7639,
+      "height_m": 13.5,
+      "height_min_m": 11.0,
+      "height_max_m": 16.0,
+      "crown_diameter_x_m": 10.8,
+      "crown_diameter_y_m": 10.8,
+      "crown_base_height_m": 4.05,
+      "crown_depth_m": 9.45,
+      "crown_projected_area_m2": 91.61,
+      "crown_min_m": 8.64,
+      "crown_max_m": 12.96,
+      "crown_group": "intermediate",
+      "confidence": "medium",
+      "warnings": []
+    }
+  },
+  {
+    "input": {
+      "tree_id": "EQ-0115",
+      "common_name": "SANGRA D'ÁGUA",
+      "scientific_name": "Croton urucurana",
+      "perimeter_cm": 330.0
+    },
+    "expected": {
+      "tree_id": "EQ-0115",
+      "common_name": "SANGRA D'ÁGUA",
+      "scientific_name": "Croton urucurana",
+      "perimeter_cm": 330.0,
+      "dbh_cm": 105.0,
+      "trunk_diameter_m": 1.0504,
+      "height_m": 14.5,
+      "height_min_m": 11.5,
+      "height_max_m": 17.5,
+      "crown_diameter_x_m": 11.6,
+      "crown_diameter_y_m": 11.6,
+      "crown_base_height_m": 4.35,
+      "crown_depth_m": 10.15,
+      "crown_projected_area_m2": 105.68,
+      "crown_min_m": 9.28,
+      "crown_max_m": 13.92,
+      "crown_group": "intermediate",
+      "confidence": "medium",
+      "warnings": []
+    }
+  },
+  {
+    "input": {
+      "tree_id": "EQ-0116",
+      "common_name": "CHICHA",
+      "scientific_name": "Sterculia sp.",
+      "perimeter_cm": 30.0
+    },
+    "expected": {
+      "tree_id": "EQ-0116",
+      "common_name": "CHICHA",
+      "scientific_name": "Sterculia sp.",
+      "perimeter_cm": 30.0,
+      "dbh_cm": 9.5,
+      "trunk_diameter_m": 0.0955,
+      "height_m": 5.0,
+      "height_min_m": 4.0,
+      "height_max_m": 6.0,
+      "crown_diameter_x_m": 2.39,
+      "crown_diameter_y_m": 2.39,
+      "crown_base_height_m": 1.0,
+      "crown_depth_m": 4.0,
+      "crown_projected_area_m2": 4.48,
+      "crown_min_m": 0.89,
+      "crown_max_m": 3.89,
+      "crown_group": "broad",
+      "confidence": "low",
+      "warnings": []
+    }
+  },
+  {
+    "input": {
+      "tree_id": "EQ-0117",
+      "common_name": "CHICHA",
+      "scientific_name": "Sterculia sp.",
+      "perimeter_cm": 80.0
+    },
+    "expected": {
+      "tree_id": "EQ-0117",
+      "common_name": "CHICHA",
+      "scientific_name": "Sterculia sp.",
+      "perimeter_cm": 80.0,
+      "dbh_cm": 25.5,
+      "trunk_diameter_m": 0.2546,
+      "height_m": 9.5,
+      "height_min_m": 7.5,
+      "height_max_m": 11.5,
+      "crown_diameter_x_m": 6.37,
+      "crown_diameter_y_m": 6.37,
+      "crown_base_height_m": 1.9,
+      "crown_depth_m": 7.6,
+      "crown_projected_area_m2": 31.82,
+      "crown_min_m": 4.87,
+      "crown_max_m": 7.87,
+      "crown_group": "broad",
+      "confidence": "low",
+      "warnings": []
+    }
+  },
+  {
+    "input": {
+      "tree_id": "EQ-0118",
+      "common_name": "CHICHA",
+      "scientific_name": "Sterculia sp.",
+      "perimeter_cm": 150.0
+    },
+    "expected": {
+      "tree_id": "EQ-0118",
+      "common_name": "CHICHA",
+      "scientific_name": "Sterculia sp.",
+      "perimeter_cm": 150.0,
+      "dbh_cm": 47.7,
+      "trunk_diameter_m": 0.4775,
+      "height_m": 13.5,
+      "height_min_m": 11.0,
+      "height_max_m": 16.0,
+      "crown_diameter_x_m": 11.94,
+      "crown_diameter_y_m": 11.94,
+      "crown_base_height_m": 2.7,
+      "crown_depth_m": 10.8,
+      "crown_projected_area_m2": 111.92,
+      "crown_min_m": 9.55,
+      "crown_max_m": 14.32,
+      "crown_group": "broad",
+      "confidence": "low",
+      "warnings": []
+    }
+  },
+  {
+    "input": {
+      "tree_id": "EQ-0119",
+      "common_name": "CHICHA",
+      "scientific_name": "Sterculia sp.",
+      "perimeter_cm": 240.0
+    },
+    "expected": {
+      "tree_id": "EQ-0119",
+      "common_name": "CHICHA",
+      "scientific_name": "Sterculia sp.",
+      "perimeter_cm": 240.0,
+      "dbh_cm": 76.4,
+      "trunk_diameter_m": 0.7639,
+      "height_m": 16.5,
+      "height_min_m": 13.0,
+      "height_max_m": 20.0,
+      "crown_diameter_x_m": 16.5,
+      "crown_diameter_y_m": 16.5,
+      "crown_base_height_m": 3.3,
+      "crown_depth_m": 13.2,
+      "crown_projected_area_m2": 213.82,
+      "crown_min_m": 13.2,
+      "crown_max_m": 19.8,
+      "crown_group": "broad",
+      "confidence": "low",
+      "warnings": []
+    }
+  },
+  {
+    "input": {
+      "tree_id": "EQ-0120",
+      "common_name": "CHICHA",
+      "scientific_name": "Sterculia sp.",
+      "perimeter_cm": 330.0
+    },
+    "expected": {
+      "tree_id": "EQ-0120",
+      "common_name": "CHICHA",
+      "scientific_name": "Sterculia sp.",
+      "perimeter_cm": 330.0,
+      "dbh_cm": 105.0,
+      "trunk_diameter_m": 1.0504,
+      "height_m": 18.0,
+      "height_min_m": 14.5,
+      "height_max_m": 21.5,
+      "crown_diameter_x_m": 18.0,
+      "crown_diameter_y_m": 18.0,
+      "crown_base_height_m": 3.6,
+      "crown_depth_m": 14.4,
+      "crown_projected_area_m2": 254.47,
+      "crown_min_m": 14.4,
+      "crown_max_m": 21.6,
+      "crown_group": "broad",
+      "confidence": "low",
+      "warnings": []
+    }
+  },
+  {
+    "input": {
+      "tree_id": "EQ-0121",
+      "common_name": "EUCALIPTO",
+      "scientific_name": "Eucalyptus sp.",
+      "perimeter_cm": 30.0
+    },
+    "expected": {
+      "tree_id": "EQ-0121",
+      "common_name": "EUCALIPTO",
+      "scientific_name": "Eucalyptus sp.",
+      "perimeter_cm": 30.0,
+      "dbh_cm": 9.5,
+      "trunk_diameter_m": 0.0955,
+      "height_m": 6.0,
+      "height_min_m": 5.0,
+      "height_max_m": 7.0,
+      "crown_diameter_x_m": 1.34,
+      "crown_diameter_y_m": 1.34,
+      "crown_base_height_m": 2.4,
+      "crown_depth_m": 3.6,
+      "crown_projected_area_m2": 1.4,
+      "crown_min_m": 0.0,
+      "crown_max_m": 2.84,
+      "crown_group": "narrow",
+      "confidence": "medium",
+      "warnings": []
+    }
+  },
+  {
+    "input": {
+      "tree_id": "EQ-0122",
+      "common_name": "EUCALIPTO",
+      "scientific_name": "Eucalyptus sp.",
+      "perimeter_cm": 80.0
+    },
+    "expected": {
+      "tree_id": "EQ-0122",
+      "common_name": "EUCALIPTO",
+      "scientific_name": "Eucalyptus sp.",
+      "perimeter_cm": 80.0,
+      "dbh_cm": 25.5,
+      "trunk_diameter_m": 0.2546,
+      "height_m": 12.0,
+      "height_min_m": 9.5,
+      "height_max_m": 14.5,
+      "crown_diameter_x_m": 3.56,
+      "crown_diameter_y_m": 3.56,
+      "crown_base_height_m": 4.8,
+      "crown_depth_m": 7.2,
+      "crown_projected_area_m2": 9.98,
+      "crown_min_m": 2.06,
+      "crown_max_m": 5.06,
+      "crown_group": "narrow",
+      "confidence": "medium",
+      "warnings": []
+    }
+  },
+  {
+    "input": {
+      "tree_id": "EQ-0123",
+      "common_name": "EUCALIPTO",
+      "scientific_name": "Eucalyptus sp.",
+      "perimeter_cm": 150.0
+    },
+    "expected": {
+      "tree_id": "EQ-0123",
+      "common_name": "EUCALIPTO",
+      "scientific_name": "Eucalyptus sp.",
+      "perimeter_cm": 150.0,
+      "dbh_cm": 47.7,
+      "trunk_diameter_m": 0.4775,
+      "height_m": 18.0,
+      "height_min_m": 14.5,
+      "height_max_m": 21.5,
+      "crown_diameter_x_m": 6.68,
+      "crown_diameter_y_m": 6.68,
+      "crown_base_height_m": 7.2,
+      "crown_depth_m": 10.8,
+      "crown_projected_area_m2": 35.1,
+      "crown_min_m": 5.18,
+      "crown_max_m": 8.18,
+      "crown_group": "narrow",
+      "confidence": "medium",
+      "warnings": []
+    }
+  },
+  {
+    "input": {
+      "tree_id": "EQ-0124",
+      "common_name": "EUCALIPTO",
+      "scientific_name": "Eucalyptus sp.",
+      "perimeter_cm": 240.0
+    },
+    "expected": {
+      "tree_id": "EQ-0124",
+      "common_name": "EUCALIPTO",
+      "scientific_name": "Eucalyptus sp.",
+      "perimeter_cm": 240.0,
+      "dbh_cm": 76.4,
+      "trunk_diameter_m": 0.7639,
+      "height_m": 23.0,
+      "height_min_m": 18.5,
+      "height_max_m": 27.5,
+      "crown_diameter_x_m": 10.69,
+      "crown_diameter_y_m": 10.69,
+      "crown_base_height_m": 9.2,
+      "crown_depth_m": 13.8,
+      "crown_projected_area_m2": 89.83,
+      "crown_min_m": 8.56,
+      "crown_max_m": 12.83,
+      "crown_group": "narrow",
+      "confidence": "medium",
+      "warnings": []
+    }
+  },
+  {
+    "input": {
+      "tree_id": "EQ-0125",
+      "common_name": "EUCALIPTO",
+      "scientific_name": "Eucalyptus sp.",
+      "perimeter_cm": 330.0
+    },
+    "expected": {
+      "tree_id": "EQ-0125",
+      "common_name": "EUCALIPTO",
+      "scientific_name": "Eucalyptus sp.",
+      "perimeter_cm": 330.0,
+      "dbh_cm": 105.0,
+      "trunk_diameter_m": 1.0504,
+      "height_m": 25.5,
+      "height_min_m": 20.5,
+      "height_max_m": 30.5,
+      "crown_diameter_x_m": 12.75,
+      "crown_diameter_y_m": 12.75,
+      "crown_base_height_m": 10.2,
+      "crown_depth_m": 15.3,
+      "crown_projected_area_m2": 127.68,
+      "crown_min_m": 10.2,
+      "crown_max_m": 15.3,
+      "crown_group": "narrow",
+      "confidence": "medium",
+      "warnings": []
+    }
+  },
+  {
+    "input": {
+      "tree_id": "EQ-0126",
+      "common_name": "JACARANDÁ MIMOSO",
+      "scientific_name": "Jacaranda mimosifolia",
+      "perimeter_cm": 30.0
+    },
+    "expected": {
+      "tree_id": "EQ-0126",
+      "common_name": "JACARANDÁ MIMOSO",
+      "scientific_name": "Jacaranda mimosifolia",
+      "perimeter_cm": 30.0,
+      "dbh_cm": 9.5,
+      "trunk_diameter_m": 0.0955,
+      "height_m": 5.0,
+      "height_min_m": 4.0,
+      "height_max_m": 6.0,
+      "crown_diameter_x_m": 2.39,
+      "crown_diameter_y_m": 2.39,
+      "crown_base_height_m": 1.0,
+      "crown_depth_m": 4.0,
+      "crown_projected_area_m2": 4.48,
+      "crown_min_m": 0.89,
+      "crown_max_m": 3.89,
+      "crown_group": "broad",
+      "confidence": "medium",
+      "warnings": []
+    }
+  },
+  {
+    "input": {
+      "tree_id": "EQ-0127",
+      "common_name": "JACARANDÁ MIMOSO",
+      "scientific_name": "Jacaranda mimosifolia",
+      "perimeter_cm": 80.0
+    },
+    "expected": {
+      "tree_id": "EQ-0127",
+      "common_name": "JACARANDÁ MIMOSO",
+      "scientific_name": "Jacaranda mimosifolia",
+      "perimeter_cm": 80.0,
+      "dbh_cm": 25.5,
+      "trunk_diameter_m": 0.2546,
+      "height_m": 9.0,
+      "height_min_m": 7.0,
+      "height_max_m": 11.0,
+      "crown_diameter_x_m": 6.37,
+      "crown_diameter_y_m": 6.37,
+      "crown_base_height_m": 1.8,
+      "crown_depth_m": 7.2,
+      "crown_projected_area_m2": 31.82,
+      "crown_min_m": 4.87,
+      "crown_max_m": 7.87,
+      "crown_group": "broad",
+      "confidence": "medium",
+      "warnings": []
+    }
+  },
+  {
+    "input": {
+      "tree_id": "EQ-0128",
+      "common_name": "JACARANDÁ MIMOSO",
+      "scientific_name": "Jacaranda mimosifolia",
+      "perimeter_cm": 150.0
+    },
+    "expected": {
+      "tree_id": "EQ-0128",
+      "common_name": "JACARANDÁ MIMOSO",
+      "scientific_name": "Jacaranda mimosifolia",
+      "perimeter_cm": 150.0,
+      "dbh_cm": 47.7,
+      "trunk_diameter_m": 0.4775,
+      "height_m": 13.0,
+      "height_min_m": 10.5,
+      "height_max_m": 15.5,
+      "crown_diameter_x_m": 11.94,
+      "crown_diameter_y_m": 11.94,
+      "crown_base_height_m": 2.6,
+      "crown_depth_m": 10.4,
+      "crown_projected_area_m2": 111.92,
+      "crown_min_m": 9.55,
+      "crown_max_m": 14.32,
+      "crown_group": "broad",
+      "confidence": "medium",
+      "warnings": []
+    }
+  },
+  {
+    "input": {
+      "tree_id": "EQ-0129",
+      "common_name": "JACARANDÁ MIMOSO",
+      "scientific_name": "Jacaranda mimosifolia",
+      "perimeter_cm": 240.0
+    },
+    "expected": {
+      "tree_id": "EQ-0129",
+      "common_name": "JACARANDÁ MIMOSO",
+      "scientific_name": "Jacaranda mimosifolia",
+      "perimeter_cm": 240.0,
+      "dbh_cm": 76.4,
+      "trunk_diameter_m": 0.7639,
+      "height_m": 15.5,
+      "height_min_m": 12.5,
+      "height_max_m": 18.5,
+      "crown_diameter_x_m": 15.5,
+      "crown_diameter_y_m": 15.5,
+      "crown_base_height_m": 3.1,
+      "crown_depth_m": 12.4,
+      "crown_projected_area_m2": 188.69,
+      "crown_min_m": 12.4,
+      "crown_max_m": 18.6,
+      "crown_group": "broad",
+      "confidence": "medium",
+      "warnings": []
+    }
+  },
+  {
+    "input": {
+      "tree_id": "EQ-0130",
+      "common_name": "JACARANDÁ MIMOSO",
+      "scientific_name": "Jacaranda mimosifolia",
+      "perimeter_cm": 330.0
+    },
+    "expected": {
+      "tree_id": "EQ-0130",
+      "common_name": "JACARANDÁ MIMOSO",
+      "scientific_name": "Jacaranda mimosifolia",
+      "perimeter_cm": 330.0,
+      "dbh_cm": 105.0,
+      "trunk_diameter_m": 1.0504,
+      "height_m": 17.0,
+      "height_min_m": 13.5,
+      "height_max_m": 20.5,
+      "crown_diameter_x_m": 17.0,
+      "crown_diameter_y_m": 17.0,
+      "crown_base_height_m": 3.4,
+      "crown_depth_m": 13.6,
+      "crown_projected_area_m2": 226.98,
+      "crown_min_m": 13.6,
+      "crown_max_m": 20.4,
+      "crown_group": "broad",
+      "confidence": "medium",
+      "warnings": []
+    }
+  },
+  {
+    "input": {
+      "tree_id": "EDGE-unknown",
+      "common_name": "ESPECIE NAO IDENTIFICADA",
+      "scientific_name": null,
+      "perimeter_cm": 120.0
+    },
+    "expected": {
+      "tree_id": "EDGE-unknown",
+      "common_name": "ESPECIE NAO IDENTIFICADA",
+      "scientific_name": null,
+      "perimeter_cm": 120.0,
+      "dbh_cm": null,
+      "trunk_diameter_m": null,
+      "height_m": null,
+      "height_min_m": null,
+      "height_max_m": null,
+      "crown_diameter_x_m": null,
+      "crown_diameter_y_m": null,
+      "crown_base_height_m": null,
+      "crown_depth_m": null,
+      "crown_projected_area_m2": null,
+      "crown_min_m": null,
+      "crown_max_m": null,
+      "crown_group": null,
+      "confidence": "low",
+      "warnings": [
+        "Species 'ESPECIE NAO IDENTIFICADA' not found in parameter set; height and crown cannot be estimated. Provide parameters or overrides."
+      ]
+    }
+  },
+  {
+    "input": {
+      "tree_id": "EDGE-divergence",
+      "common_name": "ANGICO BRANCO",
+      "scientific_name": "Platypodium elegans",
+      "perimeter_cm": 330.0
+    },
+    "expected": {
+      "tree_id": "EDGE-divergence",
+      "common_name": "ANGICO BRANCO",
+      "scientific_name": "Platypodium elegans",
+      "perimeter_cm": 330.0,
+      "dbh_cm": 105.0,
+      "trunk_diameter_m": 1.0504,
+      "height_m": 22.5,
+      "height_min_m": 18.0,
+      "height_max_m": 27.0,
+      "crown_diameter_x_m": 22.5,
+      "crown_diameter_y_m": 22.5,
+      "crown_base_height_m": 4.5,
+      "crown_depth_m": 18.0,
+      "crown_projected_area_m2": 397.61,
+      "crown_min_m": 18.0,
+      "crown_max_m": 27.0,
+      "crown_group": "broad",
+      "confidence": "medium",
+      "warnings": [
+        "Recorded scientific name 'Platypodium elegans' diverges from the reference 'Anadenanthera colubrina' for 'ANGICO BRANCO'; estimate is based on the common name."
+      ]
+    }
+  },
+  {
+    "input": {
+      "tree_id": "EDGE-extrapolation",
+      "common_name": "ANGICO BRANCO",
+      "scientific_name": "Anadenanthera colubrina",
+      "perimeter_cm": 520.0
+    },
+    "expected": {
+      "tree_id": "EDGE-extrapolation",
+      "common_name": "ANGICO BRANCO",
+      "scientific_name": "Anadenanthera colubrina",
+      "perimeter_cm": 520.0,
+      "dbh_cm": 165.5,
+      "trunk_diameter_m": 1.6552,
+      "height_m": 24.5,
+      "height_min_m": 19.5,
+      "height_max_m": 29.5,
+      "crown_diameter_x_m": 24.5,
+      "crown_diameter_y_m": 24.5,
+      "crown_base_height_m": 4.9,
+      "crown_depth_m": 19.6,
+      "crown_projected_area_m2": 471.44,
+      "crown_min_m": 19.6,
+      "crown_max_m": 29.4,
+      "crown_group": "broad",
+      "confidence": "low",
+      "warnings": [
+        "DBH 166 cm is a large extrapolation for the adopted height curve; treat the height with caution."
+      ]
+    }
+  },
+  {
+    "input": {
+      "tree_id": "EDGE-tiny",
+      "common_name": "AMENDOIM DO CAMPO",
+      "scientific_name": null,
+      "perimeter_cm": 5.0
+    },
+    "expected": {
+      "tree_id": "EDGE-tiny",
+      "common_name": "AMENDOIM DO CAMPO",
+      "scientific_name": null,
+      "perimeter_cm": 5.0,
+      "dbh_cm": 1.6,
+      "trunk_diameter_m": 0.0159,
+      "height_m": 2.0,
+      "height_min_m": 2.0,
+      "height_max_m": 2.5,
+      "crown_diameter_x_m": 0.4,
+      "crown_diameter_y_m": 0.4,
+      "crown_base_height_m": 0.4,
+      "crown_depth_m": 1.6,
+      "crown_projected_area_m2": 0.12,
+      "crown_min_m": 0.0,
+      "crown_max_m": 1.9,
+      "crown_group": "broad",
+      "confidence": "medium",
+      "warnings": []
+    }
+  },
+  {
+    "input": {
+      "tree_id": "EDGE-suspicious",
+      "common_name": "ANGICO BRANCO",
+      "scientific_name": null,
+      "perimeter_cm": 900.0
+    },
+    "expected": {
+      "tree_id": "EDGE-suspicious",
+      "common_name": "ANGICO BRANCO",
+      "scientific_name": null,
+      "perimeter_cm": 900.0,
+      "dbh_cm": 286.5,
+      "trunk_diameter_m": 2.8648,
+      "height_m": 25.0,
+      "height_min_m": 20.0,
+      "height_max_m": 30.0,
+      "crown_diameter_x_m": 25.0,
+      "crown_diameter_y_m": 25.0,
+      "crown_base_height_m": 5.0,
+      "crown_depth_m": 20.0,
+      "crown_projected_area_m2": 490.87,
+      "crown_min_m": 20.0,
+      "crown_max_m": 30.0,
+      "crown_group": "broad",
+      "confidence": "low",
+      "warnings": [
+        "DBH 286 cm is a large extrapolation for the adopted height curve; treat the height with caution."
+      ]
+    }
+  }
+]

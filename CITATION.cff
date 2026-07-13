@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+title: "urban-tree-geometry: preliminary tree geometry parameters for outdoor lighting models"
+message: "If you use this software, please cite it using these metadata."
+type: software
+authors:
+  - family-names: "Zanchetta Junior"
+    given-names: "Celso"
+version: 0.1.0
+date-released: "2026-07-13"
+license: MIT
+repository-code: "https://github.com/czanchetta/urban-tree-geometry"
+keywords:
+  - urban trees
+  - tree allometry
+  - DIALux
+  - lighting design
+  - dendrometry
+abstract: >
+  A Python tool that estimates tree height, crown diameter and preliminary 3D
+  geometry parameters for outdoor lighting models (e.g. DIALux) from
+  tree-inventory data (species and trunk perimeter). Intended for preliminary
+  modelling only; it does not replace field dendrometric survey.

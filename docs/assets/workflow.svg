@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 300" font-family="Helvetica,Arial,sans-serif">
+  <defs>
+    <marker id="arr" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#555"/>
+    </marker>
+    <style>
+      .box{rx:6;ry:6;stroke-width:1.5;}
+      .lbl{font-size:13px;fill:#1a1a1a;font-weight:600;}
+      .sub{font-size:10px;fill:#555;}
+      .measured{fill:#e8f0ee;stroke:#1f6f5c;}
+      .derived{fill:#eef3f8;stroke:#2f6f9f;}
+      .adopted{fill:#fdf2e3;stroke:#b6791f;}
+      .heur{fill:#f6ecec;stroke:#9a4a4a;}
+      .out{fill:#eee;stroke:#333;}
+    </style>
+  </defs>
+  <rect x="10" y="120" width="130" height="60" class="box measured"/>
+  <text x="75" y="145" text-anchor="middle" class="lbl">Inventory CSV</text>
+  <text x="75" y="162" text-anchor="middle" class="sub">id, species, P (cm)</text>
+  <text x="75" y="175" text-anchor="middle" class="sub">[measured]</text>
+
+  <rect x="170" y="120" width="120" height="60" class="box derived"/>
+  <text x="230" y="148" text-anchor="middle" class="lbl">DAP = P/π</text>
+  <text x="230" y="166" text-anchor="middle" class="sub">[derived]</text>
+
+  <rect x="320" y="30" width="150" height="60" class="box adopted"/>
+  <text x="395" y="55" text-anchor="middle" class="lbl">Species params</text>
+  <text x="395" y="72" text-anchor="middle" class="sub">H∞, k  [adopted]</text>
+
+  <rect x="320" y="120" width="150" height="60" class="box derived"/>
+  <text x="395" y="145" text-anchor="middle" class="lbl">Height model</text>
+  <text x="395" y="162" text-anchor="middle" class="sub">H, ±band [derived]</text>
+
+  <rect x="320" y="210" width="150" height="60" class="box heur"/>
+  <text x="395" y="235" text-anchor="middle" class="lbl">Crown layer</text>
+  <text x="395" y="252" text-anchor="middle" class="sub">Ø, base, depth [heuristic]</text>
+
+  <rect x="510" y="120" width="150" height="60" class="box out"/>
+  <text x="585" y="145" text-anchor="middle" class="lbl">Result table</text>
+  <text x="585" y="162" text-anchor="middle" class="sub">+ confidence, warnings</text>
+
+  <rect x="700" y="120" width="150" height="60" class="box out"/>
+  <text x="775" y="145" text-anchor="middle" class="lbl">DIALux table</text>
+  <text x="775" y="162" text-anchor="middle" class="sub">X, Y, Z (formula-free)</text>
+
+  <line x1="140" y1="150" x2="168" y2="150" stroke="#555" marker-end="url(#arr)"/>
+  <line x1="290" y1="150" x2="318" y2="150" stroke="#555" marker-end="url(#arr)"/>
+  <line x1="395" y1="90"  x2="395" y2="118" stroke="#555" marker-end="url(#arr)"/>
+  <line x1="470" y1="150" x2="508" y2="150" stroke="#555" marker-end="url(#arr)"/>
+  <line x1="395" y1="180" x2="395" y2="208" stroke="#555" marker-end="url(#arr)"/>
+  <line x1="470" y1="240" x2="585" y2="182" stroke="#555" marker-end="url(#arr)"/>
+  <line x1="660" y1="150" x2="698" y2="150" stroke="#555" marker-end="url(#arr)"/>
+
+  <text x="10" y="25" class="lbl" font-size="15">Calculation flow</text>
+  <text x="10" y="292" class="sub">Provenance: green=measured · blue=derived · amber=adopted · red=heuristic (not from workbook)</text>
+</svg>

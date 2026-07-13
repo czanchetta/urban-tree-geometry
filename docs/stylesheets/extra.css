@@ -1,0 +1,21 @@
+/* Neutral, sober palette; accessible contrast. */
+:root {
+  --md-primary-fg-color:        #2f5d50;
+  --md-primary-fg-color--light: #3f7d5a;
+  --md-primary-fg-color--dark:  #24443b;
+  --md-accent-fg-color:         #8a5a2b;
+}
+.md-header { box-shadow: 0 0 .2rem rgba(0,0,0,.1); }
+.disclaimer {
+  border-left: 4px solid var(--md-accent-fg-color);
+  background: #fbf6ef;
+  padding: .8rem 1rem;
+  border-radius: 4px;
+  margin: 1rem 0;
+  font-size: .9rem;
+}
+[data-md-color-scheme="slate"] .disclaimer { background: #2b2620; }
+.hero-buttons { margin: 1.2rem 0; }
+.result-table { font-size: .85rem; overflow-x: auto; }
+figure img { max-width: 100%; height: auto; }
+figcaption { font-size: .82rem; color: var(--md-default-fg-color--light); }

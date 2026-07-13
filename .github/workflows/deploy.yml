@@ -1,0 +1,101 @@
+name: deploy
+
+# Build and publish the documentation site + the interactive calculator to
+# GitHub Pages. Deployment is GATED: it runs only after the Python tests, the
+# TypeScript/equivalence tests, and both site builds succeed.
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  python-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - name: Install
+        run: |
+          python -m pip install --upgrade pip
+          pip install -e ".[dev,viz]"
+      - name: Pytest (incl. 62-row workbook regression + equivalence fixture)
+        run: pytest -q
+
+  ts-tests:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: web
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: npm
+          cache-dependency-path: web/package-lock.json
+      - name: Install
+        run: npm ci
+      - name: Vitest (unit + Python<->TS equivalence)
+        run: npm test
+
+  build-deploy:
+    # GATE: only build and deploy if every test job passed.
+    needs: [python-tests, ts-tests]
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - name: Install docs deps
+        run: |
+          python -m pip install --upgrade pip
+          pip install ".[docs]"
+      - name: Build docs site (strict)
+        run: mkdocs build --strict
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: npm
+          cache-dependency-path: web/package-lock.json
+      - name: Build calculator (Vite)
+        working-directory: web
+        env:
+          # Served under <pages-root>/app/ ; adjust if the repo name changes.
+          BASE_PATH: /urban-tree-geometry/app/
+        run: |
+          npm ci
+          npm run build
+
+      - name: Assemble site (docs + /app calculator)
+        run: |
+          mkdir -p site/app
+          cp -r web/dist/* site/app/
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

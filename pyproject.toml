@@ -1,0 +1,69 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "urban-tree-geometry"
+version = "0.1.0"
+description = "Preliminary estimation of tree height, crown diameter and 3D geometry parameters for outdoor lighting models (DIALux) from tree-inventory data."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [{ name = "Celso Zanchetta Junior" }]
+keywords = ["urban-trees", "tree-allometry", "dialux", "lighting-design",
+            "dendrometry", "arboriculture", "urban-forestry"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering",
+]
+dependencies = [
+    "pandas>=2.0",
+    "numpy>=1.24",
+    "openpyxl>=3.1",
+    "pydantic>=2.5",
+    "typer>=0.12",
+    "pyyaml>=6.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.4", "ruff>=0.4", "mypy>=1.8"]
+viz = ["matplotlib>=3.7"]
+docs = ["mkdocs-material>=9.5", "mkdocs-static-i18n>=1.2"]
+
+[project.scripts]
+urban-tree-geometry = "urban_tree_geometry.cli:app"
+
+[project.urls]
+Homepage = "https://github.com/czanchetta/urban-tree-geometry"
+Documentation = "https://czanchetta.github.io/urban-tree-geometry/"
+Repository = "https://github.com/czanchetta/urban-tree-geometry"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+src = ["src", "tests"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "N", "UP", "B", "W"]
+
+[tool.ruff.lint.per-file-ignores]
+# Typer's idiom puts Option()/Argument() calls in parameter defaults (B008),
+# and uses `input` as an option name (A002). Both are intentional here.
+"src/urban_tree_geometry/cli.py" = ["B008", "A002"]
+
+[tool.mypy]
+python_version = "3.11"
+warn_unused_configs = true
+ignore_missing_imports = true
+packages = ["urban_tree_geometry"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

@@ -1,0 +1,4 @@
+parameter,value,unit,note
+palm_crown_height_factor,0.35,-,D_crown = factor * H (heuristic)
+palm_crown_min_m,3.5,m,lower bound for palm crown diameter
+palm_crown_max_m,6.0,m,upper bound for palm crown diameter

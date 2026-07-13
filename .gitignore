@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+env/
+
+# Tooling
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# MkDocs
+site/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# ---- Proprietary / private inventory data (never commit) ----
+# Original client workbook and any real inventory are excluded by policy.
+data/private/
+*.xlsx
+!outputs/**/*.xlsx
+*_ORIGINAL*
+PROJETO_*

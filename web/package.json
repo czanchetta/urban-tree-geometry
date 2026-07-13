@@ -1,0 +1,29 @@
+{
+  "name": "urban-tree-geometry-web",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Static in-browser calculator for tree geometry parameters (DIALux pre-modelling).",
+  "license": "MIT",
+  "scripts": {
+    "sync-params": "node scripts/sync-params.mjs",
+    "predev": "node scripts/sync-params.mjs",
+    "dev": "vite",
+    "prebuild": "node scripts/sync-params.mjs",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "pretest": "node scripts/sync-params.mjs",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "papaparse": "^5.4.1"
+  },
+  "devDependencies": {
+    "@types/papaparse": "^5.3.14",
+    "typescript": "^5.4.0",
+    "vite": "^5.2.0",
+    "vitest": "^1.6.0",
+    "xlsx": "^0.18.5"
+  }
+}

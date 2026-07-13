@@ -1,0 +1,109 @@
+site_name: Tree Geometry Estimator for Outdoor Lighting Models
+site_description: >-
+  Open-source Python tool for estimating tree height, crown diameter and
+  geometry parameters for preliminary outdoor lighting models.
+site_url: https://czanchetta.github.io/urban-tree-geometry/
+repo_url: https://github.com/czanchetta/urban-tree-geometry
+repo_name: urban-tree-geometry
+copyright: >-
+  Code MIT · Docs & synthetic data CC BY 4.0 ·
+  Preliminary estimates for lighting pre-modelling only.
+
+docs_dir: docs
+
+theme:
+  name: material
+  language: pt-BR
+  logo: assets/logo.svg
+  favicon: assets/favicon.svg
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: teal
+      accent: brown
+      toggle:
+        icon: material/weather-night
+        name: Tema escuro
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: teal
+      accent: brown
+      toggle:
+        icon: material/weather-sunny
+        name: Tema claro
+  features:
+    - navigation.top
+    - navigation.sections
+    - content.code.copy
+    - toc.follow
+    - search.suggest
+
+extra_css:
+  - stylesheets/extra.css
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.highlight
+  - pymdownx.superfences
+
+extra_javascript:
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+plugins:
+  - search:
+      lang:
+        - pt
+        - en
+  - i18n:
+      docs_structure: suffix
+      fallback_to_default: true
+      languages:
+        - locale: pt
+          default: true
+          name: Português (BR)
+          build: true
+        - locale: en
+          name: English
+          build: true
+          nav_translations:
+            Início: Home
+            Problema: Problem
+            Funcionamento: How it works
+            Metodologia: Methodology
+            Demonstração: Demonstration
+            Parâmetros DIALux: DIALux parameters
+            Limitações: Limitations
+            Referências: References
+            Sobre o autor: About the author
+            Contato: Contact
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/czanchetta/urban-tree-geometry
+      name: GitHub
+  # Configurable author fields — fill in before publishing.
+  author_name: Celso Zanchetta Junior
+  author_email: celso.zanchetta@vortexinfra.com
+  author_linkedin: https://www.linkedin.com/in/celsozanchetta/
+  author_github: https://github.com/czanchetta
+  generator: false
+
+nav:
+  - Início: index.md
+  - Problema: problem.md
+  - Funcionamento: how-it-works.md
+  - Metodologia: methodology-page.md
+  - Demonstração: demo.md
+  - Parâmetros DIALux: dialux-parameters.md
+  - Limitações: limitations-page.md
+  - Referências: references-page.md
+  - Sobre o autor: about.md
+  - Contato: contact.md
