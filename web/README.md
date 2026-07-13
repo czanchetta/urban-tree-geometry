@@ -23,8 +23,12 @@ npm run preview  # preview the production build
 - `src/main.ts` — single-tree calculator UI + schematic + min/central/max
   scenarios.
 - `src/batch.ts` — CSV/XLSX import, column mapping, validation, batch compute,
-  CSV/XLSX export (all in-browser; XLSX lazy-loaded).
-- `test/` — Vitest suites (`calculations`, `params`, `equivalence`).
+  CSV/XLSX export, and a `.3ds` (ZIP) export (all in-browser; XLSX lazy-loaded).
+- `src/core/dialux3ds.ts` — DIALux `.3ds` writer (schematic trunk+crown mesh),
+  verified byte-identical to the Python writer by `test/dialux3ds.test.ts`.
+- `src/core/zipstore.ts` — minimal store-only ZIP writer for the batch bundle.
+- `test/` — Vitest suites (`calculations`, `params`, `equivalence`,
+  `dialux3ds`, `zipstore`).
 - `scripts/sync-params.mjs` — copies the single source-of-truth parameter file
   into the bundle (runs before dev/build/test).
 

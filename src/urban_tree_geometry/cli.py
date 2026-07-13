@@ -113,5 +113,71 @@ def export_excel(
     typer.echo(f"Wrote formula-free workbook to {output}")
 
 
+def _load_results(input: Path):
+    """Read an inventory or results table and return computed results."""
+    from .pipeline import process_many
+
+    trees = tio.read_inventory(input)
+    params = load_parameter_set()
+    return process_many(trees, params)
+
+
+@app.command("export-3ds")
+def export_3ds_cmd(
+    input: Path = typer.Option(..., "--input", "-i", exists=True, help="Inventory CSV/XLSX."),
+    outdir: Path = typer.Option(..., "--outdir", "-o", help="Directory for the .3ds files."),
+) -> None:
+    """Export one schematic ``.3ds`` per tree (native DIALux import format).
+
+    Builds a trunk+crown primitive mesh sized to each tree's computed geometry.
+    The mesh is a heuristic stand-in volume, not a survey-accurate tree.
+    """
+    from . import dialux_export as dx
+
+    outdir.mkdir(parents=True, exist_ok=True)
+    results = _load_results(input)
+    written, skipped = 0, []
+    for r in results:
+        try:
+            path = outdir / f"{r.tree_id}.3ds"
+            dx.write_3ds(r, path)
+            written += 1
+        except dx.ExportError as e:
+            skipped.append(f"{r.tree_id}: {e}")
+    typer.echo(f"Wrote {written} .3ds file(s) to {outdir}")
+    for s in skipped:
+        typer.echo(f"  skipped {s}", err=True)
+
+
+@app.command("export-dxobj")
+def export_dxobj_cmd(
+    input: Path = typer.Option(..., "--input", "-i", exists=True, help="Inventory CSV/XLSX."),
+    template: Path = typer.Option(
+        ..., "--template", "-t", exists=True, help="User-supplied DIALux .dxobj template."
+    ),
+    outdir: Path = typer.Option(..., "--outdir", "-o", help="Directory for the .dxobj files."),
+) -> None:
+    """Export one ``.dxobj`` per tree by resizing a DIALux template.
+
+    Only the STEP dimensions / scale factors are rewritten; the template's
+    proprietary mesh is reused. The template is your own DIALux asset and is
+    never committed to this repository.
+    """
+    from . import dialux_export as dx
+
+    outdir.mkdir(parents=True, exist_ok=True)
+    results = _load_results(input)
+    written, skipped = 0, []
+    for r in results:
+        try:
+            dx.rewrite_dxobj(r, template, outdir / f"{r.tree_id}.dxobj")
+            written += 1
+        except dx.ExportError as e:
+            skipped.append(f"{r.tree_id}: {e}")
+    typer.echo(f"Wrote {written} .dxobj file(s) to {outdir}")
+    for s in skipped:
+        typer.echo(f"  skipped {s}", err=True)
+
+
 if __name__ == "__main__":
     app()

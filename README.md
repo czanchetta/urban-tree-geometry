@@ -87,6 +87,13 @@ urban-tree-geometry inspect-workbook --input some_workbook.xlsx
 
 # convert a results CSV to a formula-free XLSX (with a DIALux sheet)
 urban-tree-geometry export-excel --input outputs/tree_geometry.csv --output outputs/tree_geometry.xlsx
+
+# DIALux 3D export — parametric schematic .3ds (open format, one per tree)
+urban-tree-geometry export-3ds --input data/raw/sample_tree_inventory.csv --outdir outputs/3ds/
+
+# DIALux 3D export — resize your own .dxobj template (proprietary mesh, git-ignored)
+urban-tree-geometry export-dxobj --input data/raw/sample_tree_inventory.csv \
+    --template MyTree.dxobj --outdir outputs/dxobj/
 ```
 
 ## Data format

@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Added
+- **DIALux 3D export** — two paths, in both the Python package and the browser
+  app. `export-3ds` writes a parametric schematic tree (trunk cylinder + crown
+  ellipsoid) sized to the computed geometry as an open-format `.3ds` binary; the
+  Python and TypeScript writers emit byte-identical output for the same tree.
+  `export-dxobj` rewrites the STEP dimensions/scale-factors of a user-supplied
+  DIALux `.dxobj` template (proprietary mesh reused verbatim, git-ignored). The
+  app adds a single-tree **Export .3ds** button and a batch **.3ds (ZIP)**
+  download, all generated in-browser.
 - **Shared parameter file** `data/species_parameters.json` — single source of
   truth loaded by both the Python package and the TypeScript frontend
   (`load_parameter_set_json()`; the default loader prefers it when present).

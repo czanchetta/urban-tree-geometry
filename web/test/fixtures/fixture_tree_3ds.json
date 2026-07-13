@@ -1,0 +1,18 @@
+{
+  "input": {
+    "tree_id": "FIX-01",
+    "common_name": "ANGICO BRANCO",
+    "scientific_name": "Anadenanthera colubrina",
+    "perimeter_cm": 330.0
+  },
+  "result": {
+    "height_m": 22.5,
+    "trunk_diameter_m": 1.0504,
+    "crown_diameter_x_m": 22.5,
+    "crown_diameter_y_m": 22.5,
+    "crown_base_height_m": 4.5,
+    "crown_depth_m": 18.0
+  },
+  "n_bytes": 5330,
+  "sha256": "f5b9c2230cbade5367c687fd5d4d4b3bcc31f051d9ae95a532efe0767b814654"
+}

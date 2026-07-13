@@ -33,3 +33,10 @@ data/private/
 !outputs/**/*.xlsx
 *_ORIGINAL*
 PROJETO_*
+
+# ---- Proprietary DIALux template objects (never commit) ----
+# A .dxobj template is DIALux's own asset; the rewriter reads it at runtime
+# from a user-supplied path. Generated exports also stay out of git.
+*.dxobj
+data/templates/
+outputs/*.3ds

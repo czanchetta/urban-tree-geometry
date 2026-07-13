@@ -47,6 +47,12 @@ the **Python** pipeline and records the full expected output to
   pipeline that would break equivalence fails here too and forces the fixture
   (and the diff) to be regenerated.
 
+The **DIALux `.3ds` exporter** is held to the same bar: a Python-generated
+reference (`web/test/fixtures/fixture_tree.3ds`) is asserted **byte-for-byte**
+against the TypeScript writer's output in `web/test/dialux3ds.test.ts`, so the
+schematic mesh a user downloads in the browser is identical to the one the
+Python CLI writes.
+
 ### A note on rounding
 
 The two languages must round identically. The height model rounds to the

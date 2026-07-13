@@ -3,6 +3,7 @@ import { CONFIG } from "./config";
 import { allSpecies, getSpecies } from "./core/params";
 import { processTree, TreeGeometryResult, TreeInput } from "./core/pipeline";
 import { treeSchematicSVG } from "./core/schematic";
+import { download3ds, ExportError } from "./core/dialux3ds";
 import { fmt, confidenceLabel } from "./core/format";
 import { mountBatch } from "./batch";
 
@@ -183,8 +184,29 @@ function render() {
       </tbody>
     </table>
     ${warnings}
+    ${
+      r.height_m !== null
+        ? `<div class="btns" style="margin-top:0.6rem">
+             <button type="button" class="ghost" id="dl-3ds">Exportar .3ds (DIALux)</button>
+             <span class="small">Malha esquemática do cenário exibido.</span>
+           </div>`
+        : ""
+    }
   `;
   schematicDiv.innerHTML = treeSchematicSVG(scaledForScenario(r));
+
+  const btn = resultDiv.querySelector<HTMLButtonElement>("#dl-3ds");
+  if (btn) {
+    btn.addEventListener("click", () => {
+      try {
+        const scenarioResult = scaledForScenario(r);
+        download3ds({ ...scenarioResult, tree_id: r.common_name || "tree" });
+      } catch (err) {
+        if (err instanceof ExportError) alert(`Não foi possível exportar: ${err.message}`);
+        else throw err;
+      }
+    });
+  }
 }
 
 function escapeHtml(s: string): string {

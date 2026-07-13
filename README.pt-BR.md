@@ -84,6 +84,13 @@ urban-tree-geometry calculate \
 urban-tree-geometry validate --input data/raw/sample_tree_inventory.csv
 urban-tree-geometry inspect-workbook --input planilha.xlsx
 urban-tree-geometry export-excel --input outputs/tree_geometry.csv --output resultado.xlsx
+
+# Exportação 3D DIALux — .3ds esquemático paramétrico (formato aberto, um por árvore)
+urban-tree-geometry export-3ds --input data/raw/sample_tree_inventory.csv --outdir outputs/3ds/
+
+# Exportação 3D DIALux — redimensiona um template .dxobj seu (malha proprietária, fora do git)
+urban-tree-geometry export-dxobj --input data/raw/sample_tree_inventory.csv \
+    --template MinhaArvore.dxobj --outdir outputs/dxobj/
 ```
 
 ## Formato dos dados

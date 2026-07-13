@@ -4,6 +4,8 @@
 import Papa from "papaparse";
 import { processTree, TreeGeometryResult, TreeInput } from "./core/pipeline";
 import { fmt, confidenceLabel } from "./core/format";
+import { resultTo3dsBytes, ExportError } from "./core/dialux3ds";
+import { buildZip, type ZipEntry } from "./core/zipstore";
 
 // Canonical fields the app needs, and Portuguese/English header aliases used to
 // auto-guess the mapping (mirrors the Python io._INPUT_ALIASES intent).
@@ -203,6 +205,7 @@ function renderResults(results: TreeGeometryResult[]): void {
     <div class="btns">
       <button type="button" class="primary" id="dl-csv">Baixar CSV</button>
       <button type="button" class="ghost" id="dl-xlsx">Baixar XLSX</button>
+      <button type="button" class="ghost" id="dl-3ds">Baixar .3ds (ZIP)</button>
     </div>
     <div class="preview-wrap">
       <table>
@@ -213,6 +216,32 @@ function renderResults(results: TreeGeometryResult[]): void {
   `;
   div.querySelector<HTMLButtonElement>("#dl-csv")!.addEventListener("click", () => downloadCSV(results));
   div.querySelector<HTMLButtonElement>("#dl-xlsx")!.addEventListener("click", () => void downloadXLSX(results));
+  div.querySelector<HTMLButtonElement>("#dl-3ds")!.addEventListener("click", () => download3dsZip(results));
+}
+
+// Bundle one .3ds per exportable tree into a single store-only ZIP. Trees
+// without a computed geometry (e.g. unrecognised species) are skipped.
+function download3dsZip(results: TreeGeometryResult[]): void {
+  const entries: ZipEntry[] = [];
+  let skipped = 0;
+  for (const r of results) {
+    try {
+      entries.push({ name: `${r.tree_id || "tree"}.3ds`, data: resultTo3dsBytes(r) });
+    } catch (err) {
+      if (err instanceof ExportError) skipped++;
+      else throw err;
+    }
+  }
+  if (entries.length === 0) {
+    alert("Nenhuma árvore com geometria calculada para exportar.");
+    return;
+  }
+  const zip = buildZip(entries);
+  triggerDownload(new Blob([zip.buffer as ArrayBuffer], { type: "application/zip" }), "dialux_trees_3ds.zip");
+  if (skipped > 0) {
+    // non-blocking note; the CSV/XLSX already carry the skipped rows with warnings
+    console.info(`${skipped} árvore(s) sem geometria foram ignoradas no ZIP .3ds`);
+  }
 }
 
 // DIALux-oriented export columns (mirror Python io.DIALUX_COLUMNS).
